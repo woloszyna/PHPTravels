@@ -3,6 +3,7 @@ package Pages.Frontend;
 import Basis.BasicOperations;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class LandingPage extends BasicOperations {
 
@@ -77,8 +78,74 @@ public class LandingPage extends BasicOperations {
     public WebElement child = driver.findElement(By.xpath("//*[@id=\"hotels\"]/div/div/form/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div[2]"));
     public WebElement searchBtn = driver.findElement(By.className("btn-primary"));
 
+    public void canChangeCurrencyToGBP(){
 
-    //TODO: start here
+        currencyDropdown.click();
+        languageOptionGBP.click();
 
+    }
+
+    public void canChangeCurrencyToSAR(){
+
+        currencyDropdown.click();
+        languageOptionSAR.click();
+
+    }
+
+    public void canChangeCurrencyToEUR(){
+
+        currencyDropdown.click();
+        languageOptionEUR.click();
+
+    }
+
+    public void canChangeCurrencyToPKR(){
+
+        currencyDropdown.click();
+        languageOptionPKR.click();
+
+    }
+
+    public void canChangeCurrencyToKWD(){
+
+        currencyDropdown.click();
+        languageOptionKWD.click();
+
+    }
+
+    public void canChangeCurrencyToJPY(){
+
+        currencyDropdown.click();
+        languageOptionJPY.click();
+
+    }
+
+    public void canChangeCurrencyToINR(){
+
+        currencyDropdown.click();
+        languageOptionINR.click();
+
+    }
+
+    public void canChangeCurrencyToCNY(){
+
+        currencyDropdown.click();
+        languageOptionCNY.click();
+
+    }
+
+    public void canChangeCurrencyToTRY(){
+
+        currencyDropdown.click();
+        languageOptionTRY.click();
+
+    }
+
+    public void canChangeCurrencyToRUB(){
+
+        currencyDropdown.click();
+        languageOptionRUB.click();
+
+    }
 
 }

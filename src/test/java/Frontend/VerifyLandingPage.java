@@ -2,10 +2,7 @@ package Frontend;
 
 import Basis.BasicOperations;
 import Pages.Frontend.LandingPage;
-import org.apache.hc.core5.reactor.Command;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -107,11 +104,202 @@ public class VerifyLandingPage extends BasicOperations {
 
     }
 
+    @Test(priority = 3)
+    public void canChangeCurrencyToGBP()  {
+
+        LandingPage LandingPage = new LandingPage();
+
+        LandingPage.canChangeCurrencyToGBP();
+
+            try {
+                Thread.sleep(4000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+        String Expected = "GBP";
+        String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+        Assert.assertEquals(Expected,Actual);
+    }
+
+    @Test(priority = 4)
+    public void canChangeCurrencyToSAR(){
+
+        LandingPage LandingPage = new LandingPage();
+
+        LandingPage.canChangeCurrencyToSAR();
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        String Expected = "ريال";
+        String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+        Assert.assertEquals(Expected,Actual);
+
+    }
+
+    @Test(priority = 5)
+    public void canChangeCurrencyToEUR(){
+
+        LandingPage LandingPage = new LandingPage();
+
+        LandingPage.canChangeCurrencyToEUR();
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        String Expected = "EUR";
+        String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+        Assert.assertEquals(Expected,Actual);
+
+    }
+
+    @Test(priority = 6)
+    public void canChangeCurrencyToPKR(){
+
+        LandingPage LandingPage = new LandingPage();
+
+        LandingPage.canChangeCurrencyToPKR();
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        String Expected = "RS";
+        String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+        Assert.assertEquals(Expected,Actual);
+
+    }
+
+    @Test(priority = 7)
+    public void canChangeCurrencyToKWD(){
+
+        LandingPage LandingPage = new LandingPage();
+
+        LandingPage.canChangeCurrencyToKWD();
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        String Expected = "KWD";
+        String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+        Assert.assertEquals(Expected,Actual);
+
+    }
+
+    @Test(priority = 8)
+    public void canChangeCurrencyToJPY(){
+
+        LandingPage LandingPage = new LandingPage();
+
+        LandingPage.canChangeCurrencyToJPY();
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        String Expected = "JPY";
+        String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+        Assert.assertEquals(Expected,Actual);
+
+    }
+
+    @Test(priority = 9)
+    public void canChangeCurrencyToINR(){
+
+        LandingPage LandingPage = new LandingPage();
+
+        LandingPage.canChangeCurrencyToINR();
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        String Expected = "INR";
+        String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+        Assert.assertEquals(Expected,Actual);
+
+    }
+
+    @Test(priority = 10)
+    public void canChangeCurrencyToCNY(){
+
+        LandingPage LandingPage = new LandingPage();
+
+        LandingPage.canChangeCurrencyToCNY();
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        String Expected = "CNY";
+        String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+        Assert.assertEquals(Expected,Actual);
+
+    }
+
+    @Test(priority = 11)
+    public void canChangeCurrencyToTRY(){
+
+        LandingPage LandingPage = new LandingPage();
+
+        LandingPage.canChangeCurrencyToTRY();
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        String Expected = "TURKISH";
+        String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+        Assert.assertEquals(Expected,Actual);
+
+    }
+
+    @Test(priority = 12)
+    public void canChangeCurrencyToRUB(){
+
+        LandingPage LandingPage = new LandingPage();
+
+        LandingPage.canChangeCurrencyToRUB();
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        String Expected = "RUB";
+        String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+        Assert.assertEquals(Expected,Actual);
+
+    }
+
     @AfterMethod
     public void Close() {
 
         BasicOperations.takeScreenshot();
         BasicOperations.Close();
     }
+
+
 
 }
