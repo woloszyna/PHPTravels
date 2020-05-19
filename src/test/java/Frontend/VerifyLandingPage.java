@@ -2,6 +2,7 @@ package Frontend;
 
 import Basis.BasicOperations;
 import Pages.Frontend.LandingPage;
+import org.apache.hc.core5.reactor.Command;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -23,7 +24,7 @@ public class VerifyLandingPage extends BasicOperations {
 
     }
 
-    @Test
+    @Test(priority = 1)
     public void VerifyTopBanner() {
 
         LandingPage LandingPage = new LandingPage();
@@ -83,6 +84,27 @@ public class VerifyLandingPage extends BasicOperations {
         Assert.assertTrue(LandingPage.PhoneNumber.isDisplayed());
         Assert.assertEquals(LandingPage.PhoneNumberFont,"13px");
         Assert.assertEquals(LandingPage.PhoneNumberText,"phone Call Now : +1-234-56789");
+    }
+
+    @Test(priority = 2)
+    public void VerifySearchModal() {
+
+        LandingPage LandingPage = new LandingPage();
+
+        Assert.assertTrue(LandingPage.holsModal.isDisplayed());
+        Assert.assertTrue(LandingPage.hotels.isDisplayed());
+        Assert.assertTrue(LandingPage.flights.isDisplayed());
+        Assert.assertTrue(LandingPage.tours.isDisplayed());
+        Assert.assertTrue(LandingPage.cars.isDisplayed());
+        Assert.assertTrue(LandingPage.visa.isDisplayed());
+
+        Assert.assertTrue(LandingPage.destinationSearch.isDisplayed());
+        Assert.assertTrue(LandingPage.checkin.isDisplayed());
+        Assert.assertTrue(LandingPage.checkout.isDisplayed());
+        Assert.assertTrue(LandingPage.adult.isDisplayed());
+        Assert.assertTrue(LandingPage.child.isDisplayed());
+        Assert.assertTrue(LandingPage.searchBtn.isDisplayed());
+
     }
 
     @AfterMethod
