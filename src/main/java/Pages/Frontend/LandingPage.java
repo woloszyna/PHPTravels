@@ -71,13 +71,6 @@ public class LandingPage extends BasicOperations {
     public WebElement cars = driver.findElement(By.className("cars"));
     public WebElement visa = driver.findElement(By.className("visa"));
 
-    public WebElement destinationSearch = driver.findElement(By.xpath("//*[@id=\"hotels\"]/div/div/form/div/div/div[1]/div/div[2]"));
-    public WebElement checkin = driver.findElement(By.xpath("//*[@id=\"airDatepickerRange-hotel\"]/div[1]/div/div[2]"));
-    public WebElement checkout = driver.findElement(By.xpath("//*[@id=\"airDatepickerRange-hotel\"]/div[2]/div/div[2]"));
-    public WebElement adult = driver.findElement(By.xpath("//*[@id=\"hotels\"]/div/div/form/div/div/div[3]/div/div/div/div/div/div/div[1]/div/div[2]"));
-    public WebElement child = driver.findElement(By.xpath("//*[@id=\"hotels\"]/div/div/form/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div[2]"));
-    public WebElement searchBtn = driver.findElement(By.className("btn-primary"));
-
     public void canChangeCurrencyToGBP(){
 
         currencyDropdown.click();
