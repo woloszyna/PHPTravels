@@ -293,6 +293,67 @@ public class VerifyLandingPage extends BasicOperations {
 
     }
 
+    @Test(priority = 13)
+    public void elementsPresentForHotels(){
+
+        LandingPage LandingPage = new LandingPage();
+        LandingPage.hotelsClicked();
+
+        String expected = "text-center hotels active";
+        String actual = LandingPage.hotels.getAttribute("Class");
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test(priority = 14)
+    public void elementsPresentForFlights(){
+
+        LandingPage LandingPage = new LandingPage();
+        LandingPage.flightsClicked();
+
+        String expected = "text-center flights  active";
+        String actual = LandingPage.flights.getAttribute("Class");
+        Assert.assertEquals(expected, actual);
+
+    }
+
+    @Test(priority = 15)
+    public void elementsPresentForTours(){
+
+        LandingPage LandingPage = new LandingPage();
+        LandingPage.toursClicked();
+
+        String expected = "text-center tours  active";
+        String actual = LandingPage.tours.getAttribute("Class");
+        Assert.assertEquals(expected,actual);
+
+    }
+
+    @Test(priority = 16)
+    public void elementsPresentForCars(){
+
+        LandingPage LandingPage = new LandingPage();
+        LandingPage.carsClicked();
+
+        String expected = "text-center cars  active";
+        String actual = LandingPage.cars.getAttribute("Class");
+        Assert.assertEquals(expected,actual);
+
+
+
+
+    }
+
+    @Test(priority = 17)
+    public void elementsPresentForVisa(){
+
+        LandingPage LandingPage = new LandingPage();
+        LandingPage.visaClicked();
+
+        String expected = "text-center visa  active";
+        String actual = LandingPage.visa.getAttribute("Class");
+        Assert.assertEquals(expected,actual);
+    }
+
     @AfterMethod
     public void Close() {
 

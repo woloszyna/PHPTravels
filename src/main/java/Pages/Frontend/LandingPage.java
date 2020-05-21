@@ -148,4 +148,35 @@ public class LandingPage extends BasicOperations {
 
     }
 
+    public void hotelsClicked() {
+
+        hotels.click();
+
+    }
+
+    public void flightsClicked() {
+
+        flights.click();
+    }
+
+    public void toursClicked() {
+
+        tours.click();
+
+    }
+
+    public void carsClicked() {
+
+        cars.click();
+
+    }
+
+    public void visaClicked() {
+
+        visa.click();
+
+    }
+
+
+
 }
