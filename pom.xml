@@ -11,41 +11,33 @@
         <selenium.version>3.141.59</selenium.version>
         <testng.version>6.14.3</testng.version>
         <maven.compiler.version>3.7.0</maven.compiler.version>
-
-        <!-- This is  to be checked -->
         <aspectj.version>1.8.10</aspectj.version>
-
     </properties>
-
     <dependencies>
-
+        <!-- selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
-
+        <!-- testng -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.14.3</version>
         </dependency>
-
         <dependency>
             <groupId>org.webjars.npm</groupId>
             <artifactId>string-width</artifactId>
             <version>4.2.0</version>
         </dependency>
-
-
-        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <!-- webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>4.0.0</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+        <!-- allure-testng -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
@@ -53,14 +45,10 @@
             <!-- This might need to go -->
             <scope>test</scope>
         </dependency>
-
-
-
     </dependencies>
-
     <build>
         <plugins>
-
+            <!-- maven-compiler-plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -70,8 +58,7 @@
                     <target>13</target>
                 </configuration>
             </plugin>
-
-            <!-- THIS MIGH?T NEED TO GO -->
+            <!-- maven-surefire-plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -89,11 +76,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-            <!-- THIS MIGH?T NEED TO GO -->
-
-
-
         </plugins>
     </build>
-
 </project>
