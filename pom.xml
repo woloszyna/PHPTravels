@@ -11,6 +11,10 @@
         <selenium.version>3.141.59</selenium.version>
         <testng.version>6.14.3</testng.version>
         <maven.compiler.version>3.7.0</maven.compiler.version>
+
+        <!-- This is  to be checked -->
+        <aspectj.version>1.8.10</aspectj.version>
+
     </properties>
 
     <dependencies>
@@ -41,6 +45,16 @@
             <version>4.0.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.13.3</version>
+            <!-- This might need to go -->
+            <scope>test</scope>
+        </dependency>
+
+
 
     </dependencies>
 
@@ -56,6 +70,28 @@
                     <target>13</target>
                 </configuration>
             </plugin>
+
+            <!-- THIS MIGH?T NEED TO GO -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20</version>
+                <configuration>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <!-- THIS MIGH?T NEED TO GO -->
+
+
 
         </plugins>
     </build>
