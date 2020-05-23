@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression Suite ">
-    <test name="Jebac PiS">
+    <test name="Some Great Test Suite">
         <classes>
             <!--<class name="FeatureTests.VerifyTopBar"/> a full name of the class incl. package.class-->
             <class name="Frontend.VerifyLandingPage"/>

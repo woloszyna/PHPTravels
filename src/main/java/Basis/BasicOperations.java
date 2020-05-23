@@ -73,9 +73,18 @@ public class BasicOperations {
         System.out.println("Screenshot saved");
     }
 
+    public void runAllure() {
+
+        try {
+            Process p = Runtime.getRuntime().exec("allure generate --clean /Users/albert.woloszyn/Projects/HighCode/Intellij/PHPTravels/allure-results/");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
     public void Close() {
 
         driver.close();
     }
-
 }

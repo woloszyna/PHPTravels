@@ -56,7 +56,7 @@ public class LandingPage extends BasicOperations {
     public String HomeOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[1]/li/a")).getCssValue("font-size");
     public WebElement VisaOption = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[1]/a"));
     public String VisaOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[1]/a")).getCssValue("font-size");
-    public WebElement CompanyOption = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[2]"));
+    public WebElement CompanyOption = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[2]/a"));
     public String CompanyOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[2]")).getCssValue("font-size");
     public WebElement PhoneNumber = driver.findElement(By.className("navbar-phone"));
     public String PhoneNumberFont = driver.findElement(By.className("navbar-phone")).getCssValue("font-size");//13px
@@ -70,6 +70,7 @@ public class LandingPage extends BasicOperations {
     public WebElement tours = driver.findElement(By.className("tours"));
     public WebElement cars = driver.findElement(By.className("cars"));
     public WebElement visa = driver.findElement(By.className("visa"));
+    public WebElement searchBtn = driver.findElement(By.className("btn-primary"));
 
     public void canChangeCurrencyToGBP(){
 
@@ -150,6 +151,7 @@ public class LandingPage extends BasicOperations {
     public void flightsClicked() {
 
         flights.click();
+
     }
 
     public void toursClicked() {
