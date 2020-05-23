@@ -511,7 +511,4 @@ public class VerifyLandingPage extends BasicOperations {
         BasicOperations.runAllure();
 
     }
-
-
-
 }
