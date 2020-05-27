@@ -1,7 +1,6 @@
 package Frontend;
 
 import Basis.BasicOperations;
-import Basis.utils.TestListener;
 import Pages.Frontend.LandingPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -12,7 +11,6 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 
 
-@Listeners({ TestListener.class })//Adds listener for  allure report (Add this to each test class)
 public class VerifyLandingPage extends BasicOperations {
 
     BasicOperations  BasicOperations = new BasicOperations();

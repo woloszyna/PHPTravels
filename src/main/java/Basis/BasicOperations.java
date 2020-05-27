@@ -16,10 +16,11 @@ import javax.imageio.ImageIO;
 public class BasicOperations {
 
     public static WebDriver driver;
+    String version = "83";
 
     public void OpenChromeFrontend() {
-        System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv83");
-        //System.setProperty("webdriver.chrome.driver", "WebDrivers/Winchromedriverv81.exe");
+        System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv"+version);
+        //System.setProperty("webdriver.chrome.driver", "WebDrivers/Winchromedriverv"+version+".exe");
         driver = new ChromeDriver();
         driver.get("https://www.phptravels.net/home");
         driver.manage().window().maximize();
@@ -33,8 +34,8 @@ public class BasicOperations {
     }
 
     public void OpenChromeBackend() {
-        System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv81");
-        //System.setProperty("webdriver.chrome.driver", "WebDrivers/Winchromedriverv81.exe");
+        System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv"+version);
+        //System.setProperty("webdriver.chrome.driver", "WebDrivers/Winchromedriverv"+version+".exe");
         driver = new ChromeDriver();
         driver.get("https://www.phptravels.net/admin");
         driver.manage().window().maximize();
