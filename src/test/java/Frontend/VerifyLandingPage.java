@@ -1,9 +1,9 @@
 package Frontend;
 
 import Basis.BasicOperations;
+import Basis.utils.TestListener;
 import Pages.Frontend.LandingPage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -12,6 +12,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 
 
+@Listeners({ TestListener.class })//Adds listener for  allure report (Add this to each test class)
 public class VerifyLandingPage extends BasicOperations {
 
     BasicOperations  BasicOperations = new BasicOperations();
@@ -107,7 +108,6 @@ public class VerifyLandingPage extends BasicOperations {
     public void canChangeCurrencyToGBP()  {
 
         LandingPage LandingPage = new LandingPage();
-
         LandingPage.canChangeCurrencyToGBP();
 
             try {
@@ -118,6 +118,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String Expected = "GBP";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
+
         Assert.assertEquals(Expected,Actual);
     }
 

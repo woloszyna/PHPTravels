@@ -1,5 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression Suite ">
+    <listeners>
+            <listener class-name="TestListeners.TestAllureListeners"></listener>
+    </listeners>
     <test name="Some Great Test Suite">
         <classes>
             <!--<class name="FeatureTests.VerifyTopBar"/> a full name of the class incl. package.class-->

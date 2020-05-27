@@ -18,7 +18,7 @@ public class BasicOperations {
     public static WebDriver driver;
 
     public void OpenChromeFrontend() {
-        System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv81");
+        System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv83");
         //System.setProperty("webdriver.chrome.driver", "WebDrivers/Winchromedriverv81.exe");
         driver = new ChromeDriver();
         driver.get("https://www.phptravels.net/home");
@@ -47,7 +47,7 @@ public class BasicOperations {
         driver.manage().window().maximize();
     }
 
-    public void takeScreenshot(){
+    public void takeScreenshot() {
         {
             try {
                 Thread.sleep(120);
@@ -57,15 +57,14 @@ public class BasicOperations {
                 long timestamp = date.getTime();
 
                 // It saves screenshot to desired path
-                String path = "ScreenShots/screenshot"+timestamp+".jpg";
+                String path = "ScreenShots/screenshot" + timestamp + ".jpg";
 
                 // Used to get ScreenSize and capture image
                 Rectangle capture =
                         new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
                 BufferedImage Image = r.createScreenCapture(capture);
                 ImageIO.write(Image, "jpg", new File(path));
-            }
-            catch (AWTException | IOException | InterruptedException ex) {
+            } catch (AWTException | IOException | InterruptedException ex) {
                 System.out.println(ex);
             }
 
@@ -76,7 +75,7 @@ public class BasicOperations {
     public void runAllure() {
 
         try {
-            Process p = Runtime.getRuntime().exec("allure generate --clean /Users/albert.woloszyn/Projects/HighCode/Intellij/PHPTravels/allure-results/");
+            Runtime.getRuntime().exec("allure generate --clean /Users/albert.woloszyn/Projects/HighCode/Intellij/PHPTravels/allure-results/");
         } catch (IOException e) {
             e.printStackTrace();
         }
