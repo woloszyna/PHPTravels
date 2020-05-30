@@ -11,16 +11,18 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.File;
 import java.util.Date;
+
 import javax.imageio.ImageIO;
 
 public class BasicOperations {
 
     public static WebDriver driver;
+    
     String version = "83";
 
     public void OpenChromeFrontend() {
-        System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv"+version);
-        //System.setProperty("webdriver.chrome.driver", "WebDrivers/Winchromedriverv"+version+".exe");
+        //System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv"+version);
+        System.setProperty("webdriver.chrome.driver", "WebDrivers/Winchromedriverv"+version+".exe");
         driver = new ChromeDriver();
         driver.get("https://www.phptravels.net/home");
         driver.manage().window().maximize();
@@ -75,12 +77,24 @@ public class BasicOperations {
 
     public void runAllure() {
 
+        String GenerateHere = "C:/Projects/HighCode/IntelliJ/PHPTravels";
+
         try {
-            Runtime.getRuntime().exec("allure generate --clean /Users/albert.woloszyn/Projects/HighCode/Intellij/PHPTravels/allure-results/");
+            //Runtime.getRuntime().exec("allure generate --clean /Projects/HighCode/Intellij/PHPTravels/allure-results/");//MAC
+            Runtime.getRuntime().exec(String.format("cmd.exe /allure generate --clean"));//WIN IS SHIT AND IT DOES NOT WORK AT ALL!!!
         } catch (IOException e) {
             e.printStackTrace();
         }
 
+    }
+
+    public void waitALittle() {
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public void Close() {
