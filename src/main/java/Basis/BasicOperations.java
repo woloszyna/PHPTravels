@@ -2,7 +2,10 @@ package Basis;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
 import java.awt.AWTException;
 import java.awt.Rectangle;
 import java.awt.Toolkit;
@@ -10,6 +13,7 @@ import java.awt.Robot;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.File;
+import java.util.Arrays;
 import java.util.Date;
 import javax.imageio.ImageIO;
 
@@ -19,6 +23,7 @@ public class BasicOperations {
     String version = "83";
 
     public void OpenChromeFrontend() {
+
         System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv"+version);
         //System.setProperty("webdriver.chrome.driver", "WebDrivers/Winchromedriverv"+version+".exe");
         driver = new ChromeDriver();

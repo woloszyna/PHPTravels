@@ -3,12 +3,15 @@ package Frontend;
 import Basis.BasicOperations;
 import Pages.Frontend.LandingPage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
+
+import static org.testng.Assert.*;
 
 
 public class VerifyLandingPage extends BasicOperations {
@@ -29,60 +32,60 @@ public class VerifyLandingPage extends BasicOperations {
 
         LandingPage LandingPage = new LandingPage();
 
-        Assert.assertTrue(LandingPage.mainHeader.isDisplayed());
-        Assert.assertTrue(LandingPage.topHeader.isDisplayed());
-        Assert.assertTrue(LandingPage.currencyDropdown.isDisplayed());
-        Assert.assertEquals(LandingPage.currencyFont,"13px");
+        assertTrue(LandingPage.mainHeader.isDisplayed());
+        assertTrue(LandingPage.topHeader.isDisplayed());
+        assertTrue(LandingPage.currencyDropdown.isDisplayed());
+        assertEquals(LandingPage.currencyFont,"13px");
         LandingPage.currencyDropdown.click();
-        Assert.assertTrue(LandingPage.languageOptionUSD.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionGBP.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionSAR.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionEUR.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionPKR.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionKWD.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionJPY.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionINR.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionCNY.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionTRY.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionRUB.isDisplayed());
+        assertTrue(LandingPage.languageOptionUSD.isDisplayed());
+        assertTrue(LandingPage.languageOptionGBP.isDisplayed());
+        assertTrue(LandingPage.languageOptionSAR.isDisplayed());
+        assertTrue(LandingPage.languageOptionEUR.isDisplayed());
+        assertTrue(LandingPage.languageOptionPKR.isDisplayed());
+        assertTrue(LandingPage.languageOptionKWD.isDisplayed());
+        assertTrue(LandingPage.languageOptionJPY.isDisplayed());
+        assertTrue(LandingPage.languageOptionINR.isDisplayed());
+        assertTrue(LandingPage.languageOptionCNY.isDisplayed());
+        assertTrue(LandingPage.languageOptionTRY.isDisplayed());
+        assertTrue(LandingPage.languageOptionRUB.isDisplayed());
 
         BasicOperations.takeScreenshot();
 
-        Assert.assertTrue(LandingPage.languageDropdown.isDisplayed());
-        Assert.assertTrue(LandingPage.flagImage.isDisplayed());
-        Assert.assertEquals(LandingPage.flagFont,"13px");
+        assertTrue(LandingPage.languageDropdown.isDisplayed());
+        assertTrue(LandingPage.flagImage.isDisplayed());
+        assertEquals(LandingPage.flagFont,"13px");
         LandingPage.languageDropdown.click();
-        Assert.assertTrue(LandingPage.languageOptionVietnamese.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionRussian.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionEnglish.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionArabic.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionFarsi.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionTurkish.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionFrench.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionSpanish.isDisplayed());
-        Assert.assertTrue(LandingPage.languageOptionGerman.isDisplayed());
+        assertTrue(LandingPage.languageOptionVietnamese.isDisplayed());
+        assertTrue(LandingPage.languageOptionRussian.isDisplayed());
+        assertTrue(LandingPage.languageOptionEnglish.isDisplayed());
+        assertTrue(LandingPage.languageOptionArabic.isDisplayed());
+        assertTrue(LandingPage.languageOptionFarsi.isDisplayed());
+        assertTrue(LandingPage.languageOptionTurkish.isDisplayed());
+        assertTrue(LandingPage.languageOptionFrench.isDisplayed());
+        assertTrue(LandingPage.languageOptionSpanish.isDisplayed());
+        assertTrue(LandingPage.languageOptionGerman.isDisplayed());
 
         BasicOperations.takeScreenshot();
 
-        Assert.assertTrue(LandingPage.myAccDropdown.isDisplayed());
-        Assert.assertTrue(LandingPage.myAccIcon.isDisplayed());
-        Assert.assertEquals(LandingPage.myAccFont,"13px");
+        assertTrue(LandingPage.myAccDropdown.isDisplayed());
+        assertTrue(LandingPage.myAccIcon.isDisplayed());
+        assertEquals(LandingPage.myAccFont,"13px");
         LandingPage.myAccDropdown.click();
-        Assert.assertTrue(LandingPage.loginBtn.isDisplayed());
-        Assert.assertTrue(LandingPage.signUp.isDisplayed());
+        assertTrue(LandingPage.loginBtn.isDisplayed());
+        assertTrue(LandingPage.signUp.isDisplayed());
 
         BasicOperations.takeScreenshot();
 
-        Assert.assertTrue(LandingPage.headerNavigation.isDisplayed());
-        Assert.assertTrue(LandingPage.HomeOption.isDisplayed());
-        Assert.assertEquals(LandingPage.HomeOptionFont,"13px");
-        Assert.assertTrue(LandingPage.VisaOption.isDisplayed());
-        Assert.assertEquals(LandingPage.VisaOptionFont,"13px");
-        Assert.assertTrue(LandingPage.CompanyOption.isDisplayed());
-        Assert.assertEquals(LandingPage.CompanyOptionFont,"14px");
-        Assert.assertTrue(LandingPage.PhoneNumber.isDisplayed());
-        Assert.assertEquals(LandingPage.PhoneNumberFont,"13px");
-        Assert.assertEquals(LandingPage.PhoneNumberText,"phone Call Now : +1-234-56789");
+        assertTrue(LandingPage.headerNavigation.isDisplayed());
+        assertTrue(LandingPage.HomeOption.isDisplayed());
+        assertEquals(LandingPage.HomeOptionFont,"13px");
+        assertTrue(LandingPage.VisaOption.isDisplayed());
+        assertEquals(LandingPage.VisaOptionFont,"13px");
+        assertTrue(LandingPage.CompanyOption.isDisplayed());
+        assertEquals(LandingPage.CompanyOptionFont,"14px");
+        assertTrue(LandingPage.PhoneNumber.isDisplayed());
+        assertEquals(LandingPage.PhoneNumberFont,"13px");
+        assertEquals(LandingPage.PhoneNumberText,"phone Call Now : +1-234-56789");
     }
 
     @Test(description = "Search Modal verification", priority = 1)
@@ -92,12 +95,12 @@ public class VerifyLandingPage extends BasicOperations {
 
         LandingPage LandingPage = new LandingPage();
 
-        Assert.assertTrue(LandingPage.holsModal.isDisplayed());
-        Assert.assertTrue(LandingPage.hotels.isDisplayed());
-        Assert.assertTrue(LandingPage.flights.isDisplayed());
-        Assert.assertTrue(LandingPage.tours.isDisplayed());
-        Assert.assertTrue(LandingPage.cars.isDisplayed());
-        Assert.assertTrue(LandingPage.visa.isDisplayed());
+        assertTrue(LandingPage.holsModal.isDisplayed());
+        assertTrue(LandingPage.hotels.isDisplayed());
+        assertTrue(LandingPage.flights.isDisplayed());
+        assertTrue(LandingPage.tours.isDisplayed());
+        assertTrue(LandingPage.cars.isDisplayed());
+        assertTrue(LandingPage.visa.isDisplayed());
     }
 
     @Test(description = "Currency change to GBP", priority = 1)
@@ -117,7 +120,7 @@ public class VerifyLandingPage extends BasicOperations {
         String Expected = "GBP";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
 
-        Assert.assertEquals(Expected,Actual);
+        assertEquals(Expected,Actual);
     }
 
     @Test(description = "Currency change to SAR", priority = 1)
@@ -136,7 +139,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String Expected = "ريال";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
-        Assert.assertEquals(Expected,Actual);
+        assertEquals(Expected,Actual);
 
     }
 
@@ -157,7 +160,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String Expected = "EUR";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
-        Assert.assertEquals(Expected,Actual);
+        assertEquals(Expected,Actual);
 
     }
 
@@ -178,7 +181,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String Expected = "RS";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
-        Assert.assertEquals(Expected,Actual);
+        assertEquals(Expected,Actual);
 
     }
 
@@ -199,7 +202,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String Expected = "KWD";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
-        Assert.assertEquals(Expected,Actual);
+        assertEquals(Expected,Actual);
 
     }
 
@@ -220,7 +223,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String Expected = "JPY";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
-        Assert.assertEquals(Expected,Actual);
+        assertEquals(Expected,Actual);
 
     }
 
@@ -241,7 +244,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String Expected = "INR";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
-        Assert.assertEquals(Expected,Actual);
+        assertEquals(Expected,Actual);
 
     }
 
@@ -261,7 +264,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String Expected = "CNY";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
-        Assert.assertEquals(Expected,Actual);
+        assertEquals(Expected,Actual);
 
     }
 
@@ -281,7 +284,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String Expected = "TURKISH";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
-        Assert.assertEquals(Expected,Actual);
+        assertEquals(Expected,Actual);
 
     }
 
@@ -301,7 +304,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String Expected = "RUB";
         String Actual = driver.findElement(By.className("dropdown-currency")).getText();
-        Assert.assertEquals(Expected,Actual);
+        assertEquals(Expected,Actual);
 
     }
 
@@ -315,7 +318,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String expected = "text-center hotels active";
         String actual = LandingPage.hotels.getAttribute("Class");
-        Assert.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test(description = "Elements Verification for Flights Element", priority = 1)
@@ -328,7 +331,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String expected = "text-center flights  active";
         String actual = LandingPage.flights.getAttribute("Class");
-        Assert.assertEquals(expected, actual);
+        assertEquals(expected, actual);
 
     }
 
@@ -342,7 +345,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String expected = "text-center tours  active";
         String actual = LandingPage.tours.getAttribute("Class");
-        Assert.assertEquals(expected,actual);
+        assertEquals(expected,actual);
 
     }
 
@@ -356,7 +359,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String expected = "text-center cars  active";
         String actual = LandingPage.cars.getAttribute("Class");
-        Assert.assertEquals(expected,actual);
+        assertEquals(expected,actual);
 
 
 
@@ -373,7 +376,7 @@ public class VerifyLandingPage extends BasicOperations {
 
         String expected = "text-center visa  active";
         String actual = LandingPage.visa.getAttribute("Class");
-        Assert.assertEquals(expected,actual);
+        assertEquals(expected,actual);
     }
 
     @Test(description = "Element verification for Hotels modal", priority = 1)
@@ -391,12 +394,12 @@ public class VerifyLandingPage extends BasicOperations {
         WebElement child = driver.findElement(By.xpath("//*[@id=\"hotels\"]/div/div/form/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div[2]"));
         WebElement searchBtn = LandingPage.searchBtn;
 
-        Assert.assertTrue(destinationSearch.isDisplayed());
-        Assert.assertTrue(checkin.isDisplayed());
-        Assert.assertTrue(checkout.isDisplayed());
-        Assert.assertTrue(adult.isDisplayed());
-        Assert.assertTrue(child.isDisplayed());
-        Assert.assertTrue(searchBtn.isDisplayed());
+        assertTrue(destinationSearch.isDisplayed());
+        assertTrue(checkin.isDisplayed());
+        assertTrue(checkout.isDisplayed());
+        assertTrue(adult.isDisplayed());
+        assertTrue(child.isDisplayed());
+        assertTrue(searchBtn.isDisplayed());
     }
 
     @Test(description = "Element verification for Flights modal", priority = 1)
@@ -428,22 +431,22 @@ public class VerifyLandingPage extends BasicOperations {
         String toExpected = "MIA";
         String toActual = to.getText();
 
-        Assert.assertTrue(flightType.isDisplayed());
-        Assert.assertTrue(oneWay.isDisplayed());
-        Assert.assertTrue(oneWayRadioBtn.isSelected());
-        Assert.assertTrue(roundTrip.isDisplayed());
-        Assert.assertFalse(roundTripRadioBtn.isSelected());
-        Assert.assertTrue(flightclass.isDisplayed());
-        Assert.assertEquals(flightClassActualValue,flightClassExpectedValue);
-        Assert.assertTrue(from.isDisplayed());
-        Assert.assertEquals(fromExpected,fromActual);
-        Assert.assertTrue(to.isDisplayed());
-        Assert.assertEquals(toExpected,toActual);
-        Assert.assertTrue(deptDate.isDisplayed());
-        Assert.assertTrue(adult.isDisplayed());
-        Assert.assertTrue(child.isDisplayed());
-        Assert.assertTrue(infant.isDisplayed());
-        Assert.assertTrue(searchBtn.isDisplayed());
+        assertTrue(flightType.isDisplayed());
+        assertTrue(oneWay.isDisplayed());
+        assertTrue(oneWayRadioBtn.isSelected());
+        assertTrue(roundTrip.isDisplayed());
+        assertFalse(roundTripRadioBtn.isSelected());
+        assertTrue(flightclass.isDisplayed());
+        assertEquals(flightClassActualValue,flightClassExpectedValue);
+        assertTrue(from.isDisplayed());
+        assertEquals(fromExpected,fromActual);
+        assertTrue(to.isDisplayed());
+        assertEquals(toExpected,toActual);
+        assertTrue(deptDate.isDisplayed());
+        assertTrue(adult.isDisplayed());
+        assertTrue(child.isDisplayed());
+        assertTrue(infant.isDisplayed());
+        assertTrue(searchBtn.isDisplayed());
 
 
         BasicOperations.takeScreenshot();
@@ -463,10 +466,10 @@ public class VerifyLandingPage extends BasicOperations {
         WebElement searchBtn = LandingPage.searchBtn;
 
 
-        Assert.assertTrue(destination.isDisplayed());
-        Assert.assertTrue(fromDate.isDisplayed());
-        Assert.assertTrue(toDate.isDisplayed());
-        Assert.assertTrue(searchBtn.isDisplayed());
+        assertTrue(destination.isDisplayed());
+        assertTrue(fromDate.isDisplayed());
+        assertTrue(toDate.isDisplayed());
+        assertTrue(searchBtn.isDisplayed());
 
 
     }
@@ -482,19 +485,32 @@ public class VerifyLandingPage extends BasicOperations {
         WebElement pickupLoc = driver.findElement(By.xpath("//*[@id=\"cars\"]/div/div/form/div/div/div[1]/div/div"));
         WebElement dropoffLoc = driver.findElement(By.xpath("//*[@id=\"cars\"]/div/div/form/div/div/div[2]/div/div"));
         WebElement departDate = driver.findElement(By.name("pickupdate"));
-        //WebElement departTime = driver.findElement(By.name("timeDepart"));
-        WebElement departTime = driver.findElement(By.className("bx-time"));
-        WebElement returnDate = driver.findElement(By.name("dropoffdate"));
-        WebElement returnTime = driver.findElement(By.name("timeReturn"));
         WebElement searchBtn = LandingPage.searchBtn;
 
-        Assert.assertTrue(pickupLoc.isDisplayed());
-        Assert.assertTrue(dropoffLoc.isDisplayed());
-        Assert.assertTrue(departDate.isDisplayed());
-        Assert.assertTrue(departTime.isDisplayed());
-        Assert.assertTrue(returnDate.isDisplayed());
-        Assert.assertTrue(returnTime.isDisplayed());
-        Assert.assertTrue(searchBtn.isDisplayed());
+        String pageSource = driver.getPageSource();
+        String expectedDepTime = "Depart  Time";
+        String expectedRetDate = "Return  Date";
+        String expectedRetTime = "Return  Time";
+
+
+        assertTrue(pickupLoc.isDisplayed());
+        assertTrue(dropoffLoc.isDisplayed());
+        assertTrue(departDate.isDisplayed());
+        assertTrue(pageSource.contains(expectedDepTime));
+        assertTrue(pageSource.contains(expectedRetDate));
+        assertTrue(pageSource.contains(expectedRetTime));
+        assertTrue(searchBtn.isDisplayed());
+    }
+
+    @Test(description = "Element verification for Visa modal", priority = 1)
+    @Severity(SeverityLevel.BLOCKER)
+    @Description("Verify if correct elements are present when modal reloads to Visa")
+    public void elementsForVisa() {
+
+        LandingPage LandingPage = new LandingPage();
+        LandingPage.visaClicked();
+
+
     }
 
     @AfterMethod
