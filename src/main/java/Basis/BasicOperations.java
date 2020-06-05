@@ -53,6 +53,19 @@ public class BasicOperations {
         driver.manage().window().maximize();
     }
 
+    public void WaitABit()  {
+
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+
+    }
+
     public void takeScreenshot() {
         {
             try {

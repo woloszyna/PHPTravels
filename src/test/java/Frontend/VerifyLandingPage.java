@@ -2,6 +2,7 @@ package Frontend;
 
 import Basis.BasicOperations;
 import Pages.Frontend.LandingPage;
+import Pages.Frontend.SearchResultsPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -72,7 +73,7 @@ public class VerifyLandingPage extends BasicOperations {
         assertEquals(LandingPage.myAccFont,"13px");
         LandingPage.myAccDropdown.click();
         assertTrue(LandingPage.loginBtn.isDisplayed());
-        assertTrue(LandingPage.signUp.isDisplayed());
+        assertTrue(LandingPage.signUpBtn.isDisplayed());
 
         BasicOperations.takeScreenshot();
 
@@ -513,6 +514,43 @@ public class VerifyLandingPage extends BasicOperations {
 
     }
 
+    @Test(description = "Destinations can be retrieved when searched", priority = 1)
+    @Severity(SeverityLevel.BLOCKER)
+    @Description("Verify if searched values are retrieved when searched for destination")
+    public void recordsCanBeRetrieved() {
+
+        LandingPage LandingPage = new LandingPage();
+        LandingPage.typeInDestinationField();
+
+        BasicOperations.WaitABit();
+
+        WebElement searchResults = driver.findElement(By.className("select2-result-label"));
+
+        String ActualFrance = driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/ul/li/ul/li[1]/div")).getText();
+        String ActualUS = driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/ul/li/ul/li[2]/div")).getText();
+        String FranceExpected = "Paris, France";
+        String USExpected = "Paris, United States";
+
+        assertTrue(searchResults.isDisplayed());
+        assertEquals(ActualFrance, FranceExpected);
+        assertEquals(ActualUS, USExpected);
+
+    }
+
+    @Test(description = "Destinations can be searched", priority = 1)
+    @Severity(SeverityLevel.BLOCKER)
+    @Description("Verify if searched values are found in the results page")
+    public void canFindDestination() {
+
+        LandingPage LandingPage = new LandingPage();
+        LandingPage.searchForDestination();
+
+        SearchResultsPage SearchResultsPage = new SearchResultsPage();
+        WebElement results = SearchResultsPage.results;
+
+        assertTrue(results.isDisplayed());
+    }
+
     @AfterMethod
     public void Close() {
 
@@ -526,4 +564,5 @@ public class VerifyLandingPage extends BasicOperations {
         BasicOperations.runAllure();
 
     }
+
 }
