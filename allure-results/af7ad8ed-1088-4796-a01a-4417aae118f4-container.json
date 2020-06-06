@@ -1,0 +1,1 @@
+{"uuid":"af7ad8ed-1088-4796-a01a-4417aae118f4","name":"Default Suite","children":["de5442d2-a311-42be-99a0-0f1da837ca11"],"befores":[],"afters":[{"name":"runAllure","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1591432467291,"stop":1591432467299}],"links":[],"start":1591432448416,"stop":1591432467300}

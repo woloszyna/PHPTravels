@@ -1,0 +1,113 @@
+{
+  "uid" : "7a28b972646d0168",
+  "name" : "Destinations can be searched",
+  "fullName" : "Frontend.VerifyLandingPage.canFindDestination",
+  "historyId" : "dfa7097dcefbb3bdbe34153c5486eae9",
+  "time" : {
+    "start" : 1591378353689,
+    "stop" : 1591378364277,
+    "duration" : 10588
+  },
+  "description" : "Verify if searched values are found in the results page",
+  "descriptionHtml" : "<p>Verify if searched values are found in the results page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591378345839,
+      "stop" : 1591378353469,
+      "duration" : 7630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591378364287,
+      "stop" : 1591378365099,
+      "duration" : 812
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "runAllure",
+    "time" : {
+      "start" : 1591378365106,
+      "stop" : 1591378365115,
+      "duration" : 9
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "canFindDestination"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "PHPTravels"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "5140@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a28b972646d0168.json",
+  "parameterValues" : [ ]
+}

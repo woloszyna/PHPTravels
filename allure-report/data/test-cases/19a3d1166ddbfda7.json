@@ -1,0 +1,129 @@
+{
+  "uid" : "19a3d1166ddbfda7",
+  "name" : "Currency change to EUR",
+  "fullName" : "Frontend.VerifyLandingPage.canChangeCurrencyToEUR",
+  "historyId" : "e5021fc49e089ebf4aad48214769845b",
+  "time" : {
+    "start" : 1591388965286,
+    "stop" : 1591388969979,
+    "duration" : 4693
+  },
+  "description" : "Verify if currency can be changed to EUR",
+  "descriptionHtml" : "<p>Verify if currency can be changed to EUR</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591388961053,
+      "stop" : 1591388965281,
+      "duration" : 4228
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591388969982,
+      "stop" : 1591388970367,
+      "duration" : 385
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "runAllure",
+    "time" : {
+      "start" : 1591389141376,
+      "stop" : 1591389141384,
+      "duration" : 8
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "runAllure",
+    "time" : {
+      "start" : 1591389141384,
+      "stop" : 1591389141390,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "canChangeCurrencyToEUR"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite "
+  }, {
+    "name" : "suite",
+    "value" : "Verification of the Landing Page"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "7009@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19a3d1166ddbfda7.json",
+  "parameterValues" : [ ]
+}

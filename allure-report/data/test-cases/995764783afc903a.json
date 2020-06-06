@@ -1,0 +1,110 @@
+{
+  "uid" : "995764783afc903a",
+  "name" : "Currency change to RUB",
+  "fullName" : "Frontend.VerifyLandingPage.canChangeCurrencyToRUB",
+  "historyId" : "8cb9f984dc85aed42b56507c4b4433cc",
+  "time" : {
+    "start" : 1591006377380,
+    "stop" : 1591006382035,
+    "duration" : 4655
+  },
+  "description" : "Verify if currency can be changed to RUB",
+  "descriptionHtml" : "<p>Verify if currency can be changed to RUB</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591006373188,
+      "stop" : 1591006377373,
+      "duration" : 4185
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591006382037,
+      "stop" : 1591006382446,
+      "duration" : 409
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "runAllure",
+    "time" : {
+      "start" : 1591006450655,
+      "stop" : 1591006450663,
+      "duration" : 8
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "canChangeCurrencyToRUB"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite "
+  }, {
+    "name" : "suite",
+    "value" : "Some Great Test Suite"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "7446@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "995764783afc903a.json",
+  "parameterValues" : [ ]
+}

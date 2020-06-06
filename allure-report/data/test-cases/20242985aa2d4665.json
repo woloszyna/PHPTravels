@@ -1,0 +1,123 @@
+{
+  "uid" : "20242985aa2d4665",
+  "name" : "Currency change to JPY",
+  "fullName" : "Frontend.VerifyLandingPage.canChangeCurrencyToJPY",
+  "historyId" : "df517bcbd6fa3dde659c3281483db2e9",
+  "time" : {
+    "start" : 1591434021368,
+    "stop" : 1591434028587,
+    "duration" : 7219
+  },
+  "description" : "Verify if currency can be changed to JPY",
+  "descriptionHtml" : "<p>Verify if currency can be changed to JPY</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591434016463,
+      "stop" : 1591434021365,
+      "duration" : 4902
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591434028588,
+      "stop" : 1591434028998,
+      "duration" : 410
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "canChangeCurrencyToJPY"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite "
+  }, {
+    "name" : "suite",
+    "value" : "Verification of the Landing Page"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "12178@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ {
+      "uid" : "8dfa0c9bd6700215",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591389423592,
+        "stop" : 1591389428313,
+        "duration" : 4721
+      }
+    }, {
+      "uid" : "4063c40f37e9517f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591388993392,
+        "stop" : 1591388998088,
+        "duration" : 4696
+      }
+    }, {
+      "uid" : "1eccc98f6ebfc7fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591006347248,
+        "stop" : 1591006351942,
+        "duration" : 4694
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20242985aa2d4665.json",
+  "parameterValues" : [ ]
+}

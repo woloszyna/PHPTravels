@@ -1,0 +1,113 @@
+{
+  "uid" : "1604359f8a22b5ff",
+  "name" : "Can operate with One Star",
+  "fullName" : "Frontend.VerifyResultsPage.threeStarsRetrievesSomething",
+  "historyId" : "e0104a18af3da4511347265740f327b",
+  "time" : {
+    "start" : 1591433620541,
+    "stop" : 1591433621498,
+    "duration" : 957
+  },
+  "description" : "Verify if clicking on Three Stars in the Filter Search Modal will retrieve something",
+  "descriptionHtml" : "<p>Verify if clicking on Three Stars in the Filter Search Modal will retrieve something</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591433606725,
+      "stop" : 1591433619222,
+      "duration" : 12497
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591433621502,
+      "stop" : 1591433621977,
+      "duration" : 475
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "runAllure",
+    "time" : {
+      "start" : 1591433638416,
+      "stop" : 1591433638421,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "threeStarsRetrievesSomething"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "PHPTravels"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "11591@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1604359f8a22b5ff.json",
+  "parameterValues" : [ ]
+}

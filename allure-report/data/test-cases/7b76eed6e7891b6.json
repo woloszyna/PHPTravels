@@ -1,0 +1,113 @@
+{
+  "uid" : "7b76eed6e7891b6",
+  "name" : "Can operate with One Star",
+  "fullName" : "Frontend.VerifyResultsPage.fourStarsRetrievesSomething",
+  "historyId" : "f5b6c2bde967522c68d57b66131a05b0",
+  "time" : {
+    "start" : 1591433590901,
+    "stop" : 1591433591928,
+    "duration" : 1027
+  },
+  "description" : "Verify if clicking on Four Stars in the Filter Search Modal will retrieve something",
+  "descriptionHtml" : "<p>Verify if clicking on Four Stars in the Filter Search Modal will retrieve something</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591433577422,
+      "stop" : 1591433590895,
+      "duration" : 13473
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591433591929,
+      "stop" : 1591433592327,
+      "duration" : 398
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "runAllure",
+    "time" : {
+      "start" : 1591433638416,
+      "stop" : 1591433638421,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "fourStarsRetrievesSomething"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "PHPTravels"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "11591@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b76eed6e7891b6.json",
+  "parameterValues" : [ ]
+}

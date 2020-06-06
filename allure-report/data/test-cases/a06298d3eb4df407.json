@@ -1,0 +1,113 @@
+{
+  "uid" : "a06298d3eb4df407",
+  "name" : "Elements Verification for Flights Element",
+  "fullName" : "Frontend.VerifyLandingPage.elementsPresentForFlights",
+  "historyId" : "1e0c4735e0c65a5d20654e04933c5991",
+  "time" : {
+    "start" : 1591006433656,
+    "stop" : 1591006434250,
+    "duration" : 594
+  },
+  "description" : "Verify attribute of class for the flights element",
+  "descriptionHtml" : "<p>Verify attribute of class for the flights element</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591006429738,
+      "stop" : 1591006433654,
+      "duration" : 3916
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591006434252,
+      "stop" : 1591006434805,
+      "duration" : 553
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "runAllure",
+    "time" : {
+      "start" : 1591006450655,
+      "stop" : 1591006450663,
+      "duration" : 8
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "elementsPresentForFlights"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite "
+  }, {
+    "name" : "suite",
+    "value" : "Some Great Test Suite"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "7446@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a06298d3eb4df407.json",
+  "parameterValues" : [ ]
+}

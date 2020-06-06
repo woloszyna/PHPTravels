@@ -1,0 +1,113 @@
+{
+  "uid" : "fcf98f82161f53ff",
+  "name" : "Top Banner verification",
+  "fullName" : "Frontend.VerifyResultsPage.VerifyTopBanner",
+  "historyId" : "794dfb4a091d021dcf88480bee3d6fca",
+  "time" : {
+    "start" : 1591433530355,
+    "stop" : 1591433533626,
+    "duration" : 3271
+  },
+  "description" : "Verify if all elements are displayed in the top bar, and if they are in expected format",
+  "descriptionHtml" : "<p>Verify if all elements are displayed in the top bar, and if they are in expected format</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591433517007,
+      "stop" : 1591433530126,
+      "duration" : 13119
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591433533647,
+      "stop" : 1591433534163,
+      "duration" : 516
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "runAllure",
+    "time" : {
+      "start" : 1591433638416,
+      "stop" : 1591433638421,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyTopBanner"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "PHPTravels"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "11591@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fcf98f82161f53ff.json",
+  "parameterValues" : [ ]
+}

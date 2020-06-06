@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: cannot kill Chrome\n  (Session info: chrome=83.0.4103.61)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'IEDUBM4046103A', ip: '2a02:8084:4ec1:2900:4808:9617:69d6:855d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '14'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:60486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 631078759924de30a74f74004a248258",
+      "children" : [ {
+        "name" : "Close",
+        "uid" : "51c710ca6a76d3b0",
+        "parentUid" : "74e2effba8ce312ac3be425d9a88a621",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591022345449,
+          "stop" : 1591022345449,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74e2effba8ce312ac3be425d9a88a621"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=83.0.4103.97)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'IEDUBM4046103A', ip: '2a02:8084:4ec1:2900:9d3:fc6:3a44:9b04%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '14'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:56428}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c2ac0eefcdb5cf4408fd79870105345d",
+      "children" : [ {
+        "name" : "OpenChromeFrontend",
+        "uid" : "36a2d3c1cabe12f3",
+        "parentUid" : "7599cfe5321abb1bc5022ffdc4e1fb3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591378387756,
+          "stop" : 1591378387761,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7599cfe5321abb1bc5022ffdc4e1fb3d"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "accessResultsPage",
+        "uid" : "78adec1152d0cd22",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591379276998,
+          "stop" : 1591379277000,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

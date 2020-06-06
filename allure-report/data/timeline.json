@@ -1,0 +1,2561 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "IEDUBM4046103A",
+    "children" : [ {
+      "name" : "2993@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "8abf20fa82d7ec0d",
+        "parentUid" : "2b118c0caeae604d78a0a86f3f282c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591375103217,
+          "stop" : 1591375106793,
+          "duration" : 3576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b118c0caeae604d78a0a86f3f282c1d"
+    }, {
+      "name" : "5416@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Search Results Verification",
+        "uid" : "df132b637931333a",
+        "parentUid" : "0f688e00f8b13e54135cec1461f7c65d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591378909482,
+          "stop" : 1591378909513,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f688e00f8b13e54135cec1461f7c65d"
+    }, {
+      "name" : "7009@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Element verification for Visa modal",
+        "uid" : "5e64f84dcda8047c",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389092168,
+          "stop" : 1591389092758,
+          "duration" : 590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to PKR",
+        "uid" : "78b0d120c0a6e7cb",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389014582,
+          "stop" : 1591389019294,
+          "duration" : 4712
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Flights modal",
+        "uid" : "37ffa0bff93efab9",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389075060,
+          "stop" : 1591389076530,
+          "duration" : 1470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search Results Verification",
+        "uid" : "a2304b23f8aa53c6",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389140934,
+          "stop" : 1591389140969,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to GBP",
+        "uid" : "e58ca73247e98270",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591388974589,
+          "stop" : 1591388979367,
+          "duration" : 4778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to CNY",
+        "uid" : "9c3def90e2798e41",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591388955884,
+          "stop" : 1591388960658,
+          "duration" : 4774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to JPY",
+        "uid" : "4063c40f37e9517f",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591388993392,
+          "stop" : 1591388998088,
+          "duration" : 4696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search Modal verification",
+        "uid" : "5f627d4dad7402af",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591388942435,
+          "stop" : 1591388943176,
+          "duration" : 741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to TRY",
+        "uid" : "3d1964926cdc0aef",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389043968,
+          "stop" : 1591389048739,
+          "duration" : 4771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to RUB",
+        "uid" : "52d10e3eb86651cc",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389024286,
+          "stop" : 1591389029011,
+          "duration" : 4725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Tours modal",
+        "uid" : "f3fad71682efa0dd",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389086645,
+          "stop" : 1591389087437,
+          "duration" : 792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to INR",
+        "uid" : "559c7e6f8e52e97a",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591388983988,
+          "stop" : 1591388988685,
+          "duration" : 4697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Destinations can be retrieved when searched",
+        "uid" : "7a9b2ac49f895a10",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389124180,
+          "stop" : 1591389126530,
+          "duration" : 2350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Tours Element",
+        "uid" : "4ab9d0db052e755d",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389113517,
+          "stop" : 1591389114142,
+          "duration" : 625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Flights Element",
+        "uid" : "5ab1e18ed41a268b",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389102905,
+          "stop" : 1591389103561,
+          "duration" : 656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Hotels modal",
+        "uid" : "341f5994ffb05051",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389081222,
+          "stop" : 1591389082039,
+          "duration" : 817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Visa Element",
+        "uid" : "7a3579d717c04212",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389118792,
+          "stop" : 1591389119446,
+          "duration" : 654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Cars Element",
+        "uid" : "14b43ae143d7a15a",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389097439,
+          "stop" : 1591389098053,
+          "duration" : 614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Cars modal",
+        "uid" : "fc8be5b1f60eaeae",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389069185,
+          "stop" : 1591389070178,
+          "duration" : 993
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Top Banner verification",
+        "uid" : "926c783ee7eaa6b5",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591388948447,
+          "stop" : 1591388950809,
+          "duration" : 2362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to KWD",
+        "uid" : "333a875f6f22347d",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591389004205,
+          "stop" : 1591389008928,
+          "duration" : 4723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to SAR",
+        "uid" : "94959ae2225d3661",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389034145,
+          "stop" : 1591389038855,
+          "duration" : 4710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to EUR",
+        "uid" : "19a3d1166ddbfda7",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591388965286,
+          "stop" : 1591388969979,
+          "duration" : 4693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Hotels Element",
+        "uid" : "97d578ef9533529",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389108291,
+          "stop" : 1591389108896,
+          "duration" : 605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Destinations can be searched",
+        "uid" : "942ae8f0e5c22888",
+        "parentUid" : "01bb4e1fe39025ee37c9b525f8d892e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389054055,
+          "stop" : 1591389063078,
+          "duration" : 9023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01bb4e1fe39025ee37c9b525f8d892e3"
+    }, {
+      "name" : "7446@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Currency change to INR",
+        "uid" : "6f89c4461889c43d",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006335533,
+          "stop" : 1591006340273,
+          "duration" : 4740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Cars modal",
+        "uid" : "73e9564b8673b4ce",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006405487,
+          "stop" : 1591006406447,
+          "duration" : 960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Tours modal",
+        "uid" : "60566b24d557aab0",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006423399,
+          "stop" : 1591006424110,
+          "duration" : 711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search Modal verification",
+        "uid" : "d94a4914ef63559f",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006290264,
+          "stop" : 1591006291071,
+          "duration" : 807
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Top Banner verification",
+        "uid" : "291eef68b47dfd4b",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006296177,
+          "stop" : 1591006298476,
+          "duration" : 2299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to KWD",
+        "uid" : "efe846f2c26ad12c",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006358657,
+          "stop" : 1591006363378,
+          "duration" : 4721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Visa Element",
+        "uid" : "aa892f44b3dee0d",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006449565,
+          "stop" : 1591006450170,
+          "duration" : 605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Flights modal",
+        "uid" : "b08a2fd5e2f711f9",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006410962,
+          "stop" : 1591006412439,
+          "duration" : 1477
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to SAR",
+        "uid" : "35107661b7bf4d82",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006386542,
+          "stop" : 1591006391234,
+          "duration" : 4692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Tours Element",
+        "uid" : "a1282c0d02f18a62",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006444385,
+          "stop" : 1591006444979,
+          "duration" : 594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to TRY",
+        "uid" : "5c0d024216da5f6c",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006396447,
+          "stop" : 1591006401180,
+          "duration" : 4733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to CNY",
+        "uid" : "4e519c3636004b16",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006303386,
+          "stop" : 1591006308094,
+          "duration" : 4708
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to EUR",
+        "uid" : "193c0396b49da6a0",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006312665,
+          "stop" : 1591006317474,
+          "duration" : 4809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Cars Element",
+        "uid" : "8aa4831bd03d2802",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006428657,
+          "stop" : 1591006429256,
+          "duration" : 599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to PKR",
+        "uid" : "106fc95cd30f2e76",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006368134,
+          "stop" : 1591006372819,
+          "duration" : 4685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to GBP",
+        "uid" : "4eb5f65b2b5b307",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006322966,
+          "stop" : 1591006327707,
+          "duration" : 4741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to RUB",
+        "uid" : "995764783afc903a",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006377380,
+          "stop" : 1591006382035,
+          "duration" : 4655
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Flights Element",
+        "uid" : "a06298d3eb4df407",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006433656,
+          "stop" : 1591006434250,
+          "duration" : 594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Hotels modal",
+        "uid" : "b1e647316e4592a8",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006416929,
+          "stop" : 1591006417713,
+          "duration" : 784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Hotels Element",
+        "uid" : "25fbc11bd990aab2",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006438817,
+          "stop" : 1591006439428,
+          "duration" : 611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to JPY",
+        "uid" : "1eccc98f6ebfc7fe",
+        "parentUid" : "da3f08823116f2298a93d851e1cb56b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591006347248,
+          "stop" : 1591006351942,
+          "duration" : 4694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da3f08823116f2298a93d851e1cb56b9"
+    }, {
+      "name" : "4682@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "3d15fa5095264b63",
+        "parentUid" : "3c206dd0d1d55af6923fad7c8a334f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591377777601,
+          "stop" : 1591377780236,
+          "duration" : 2635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c206dd0d1d55af6923fad7c8a334f41"
+    }, {
+      "name" : "7885@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Element verification for Hotels modal",
+        "uid" : "7a960f94c260341",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389507400,
+          "stop" : 1591389508203,
+          "duration" : 803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to JPY",
+        "uid" : "8dfa0c9bd6700215",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389423592,
+          "stop" : 1591389428313,
+          "duration" : 4721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to EUR",
+        "uid" : "7c7bd655adb7534e",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389393373,
+          "stop" : 1591389398169,
+          "duration" : 4796
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to KWD",
+        "uid" : "d8534446285ffa39",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389432915,
+          "stop" : 1591389437582,
+          "duration" : 4667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Destinations can be searched",
+        "uid" : "4b65a32b12276c31",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389482259,
+          "stop" : 1591389489890,
+          "duration" : 7631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Visa Element",
+        "uid" : "f30bd95b1baebe71",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389547051,
+          "stop" : 1591389547684,
+          "duration" : 633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Destinations can be retrieved when searched",
+        "uid" : "5466f9d2bd12e262",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389552315,
+          "stop" : 1591389554723,
+          "duration" : 2408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Cars modal",
+        "uid" : "54f8ea9201639fba",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389494631,
+          "stop" : 1591389495563,
+          "duration" : 932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to RUB",
+        "uid" : "b35dae694fbb47d6",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389452101,
+          "stop" : 1591389456804,
+          "duration" : 4703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Cars Element",
+        "uid" : "7633c7ca0ebdbd69",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389523856,
+          "stop" : 1591389524628,
+          "duration" : 772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Flights modal",
+        "uid" : "421cb8b8dca92d71",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389500151,
+          "stop" : 1591389501635,
+          "duration" : 1484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to CNY",
+        "uid" : "67466783eada7c9b",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389383832,
+          "stop" : 1591389388562,
+          "duration" : 4730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search Modal verification",
+        "uid" : "2efbc044dd90f4f2",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389370432,
+          "stop" : 1591389371213,
+          "duration" : 781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Tours modal",
+        "uid" : "50688e4745e3f71a",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389512799,
+          "stop" : 1591389513550,
+          "duration" : 751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Hotels Element",
+        "uid" : "ae7fbe3b9bfda80e",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389534667,
+          "stop" : 1591389535391,
+          "duration" : 724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to GBP",
+        "uid" : "2ff6e0f9587863ca",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389402740,
+          "stop" : 1591389407503,
+          "duration" : 4763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to SAR",
+        "uid" : "d5bd74134c91e342",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389461457,
+          "stop" : 1591389466130,
+          "duration" : 4673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Visa modal",
+        "uid" : "713f469a62ca43f4",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389518200,
+          "stop" : 1591389518796,
+          "duration" : 596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to TRY",
+        "uid" : "5ced6deb4645d511",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389470775,
+          "stop" : 1591389475509,
+          "duration" : 4734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Top Banner verification",
+        "uid" : "db5aca1e03d706cb",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389376426,
+          "stop" : 1591389379005,
+          "duration" : 2579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search Results Verification",
+        "uid" : "ac6d29e213033382",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389566591,
+          "stop" : 1591389566629,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to PKR",
+        "uid" : "bd0a96aa17dda6e",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389442568,
+          "stop" : 1591389447420,
+          "duration" : 4852
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to INR",
+        "uid" : "ad8bae9dca145778",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389413577,
+          "stop" : 1591389418264,
+          "duration" : 4687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Tours Element",
+        "uid" : "a32daa24f0117d0b",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389539880,
+          "stop" : 1591389540535,
+          "duration" : 655
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Flights Element",
+        "uid" : "fb8395ac790001e5",
+        "parentUid" : "97d9a6262645a4dbf40d6e855cb4a38c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389529431,
+          "stop" : 1591389530172,
+          "duration" : 741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "97d9a6262645a4dbf40d6e855cb4a38c"
+    }, {
+      "name" : "12178@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Search Results Verification",
+        "uid" : "4170a298e937f488",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434201500,
+          "stop" : 1591434202374,
+          "duration" : 874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Tours Element",
+        "uid" : "7fb5d592e47bea5",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434150807,
+          "stop" : 1591434151594,
+          "duration" : 787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Can operate with One Star",
+        "uid" : "cf9520f82d2091",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434222509,
+          "stop" : 1591434223419,
+          "duration" : 910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search Modal verification",
+        "uid" : "4c88cd66f5c4b82e",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433963833,
+          "stop" : 1591433964664,
+          "duration" : 831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Cars Element",
+        "uid" : "249080d0b442da8f",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434134063,
+          "stop" : 1591434134689,
+          "duration" : 626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Flights modal",
+        "uid" : "c99c99faf1c4fe00",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434109171,
+          "stop" : 1591434110689,
+          "duration" : 1518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Top Banner verification",
+        "uid" : "2d17ba1c0d32b572",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434176569,
+          "stop" : 1591434179254,
+          "duration" : 2685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to KWD",
+        "uid" : "1e19293bfb3e4d98",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434033620,
+          "stop" : 1591434038337,
+          "duration" : 4717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to SAR",
+        "uid" : "b423178604ef0ca1",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434070804,
+          "stop" : 1591434075457,
+          "duration" : 4653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to TRY",
+        "uid" : "66631910d13d0b9c",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434081568,
+          "stop" : 1591434086333,
+          "duration" : 4765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Flights Element",
+        "uid" : "892224824f7d79fd",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434139665,
+          "stop" : 1591434140289,
+          "duration" : 624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Can operate with Five Stars",
+        "uid" : "2886bc844d9fa295",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434211616,
+          "stop" : 1591434212661,
+          "duration" : 1045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Visa Element",
+        "uid" : "b0c388a2d2fb237",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434156736,
+          "stop" : 1591434157399,
+          "duration" : 663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Tours modal",
+        "uid" : "ed3036b1f05048f7",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434121406,
+          "stop" : 1591434122173,
+          "duration" : 767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Hotels modal",
+        "uid" : "6d2b10c5986f33eb",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434115679,
+          "stop" : 1591434116527,
+          "duration" : 848
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Visa modal",
+        "uid" : "7fd18e00ea8d106c",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434127161,
+          "stop" : 1591434127810,
+          "duration" : 649
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to GBP",
+        "uid" : "7fea14e3fd9a8ac3",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434001224,
+          "stop" : 1591434005904,
+          "duration" : 4680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Destinations can be retrieved when searched",
+        "uid" : "7c7dfa87356e44eb",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434162475,
+          "stop" : 1591434164922,
+          "duration" : 2447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Element verification for Cars modal",
+        "uid" : "3b6cae406d92fc6",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434102879,
+          "stop" : 1591434103822,
+          "duration" : 943
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to PKR",
+        "uid" : "17225474fbf1e0ef",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434043382,
+          "stop" : 1591434048092,
+          "duration" : 4710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Filter Search modal Verification",
+        "uid" : "b1dd49171f608f0d",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434189646,
+          "stop" : 1591434190670,
+          "duration" : 1024
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Can operate with One Star",
+        "uid" : "b715e75efe127c50",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434254623,
+          "stop" : 1591434255598,
+          "duration" : 975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Top Banner verification",
+        "uid" : "963e14b12b2c7bfb",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433970377,
+          "stop" : 1591433972908,
+          "duration" : 2531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to CNY",
+        "uid" : "bbbceb9837b1ba41",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433978523,
+          "stop" : 1591433983348,
+          "duration" : 4825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to EUR",
+        "uid" : "53b72413e38e86a6",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433989003,
+          "stop" : 1591433993725,
+          "duration" : 4722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Can operate with One Star",
+        "uid" : "eec1b9279e809f3d",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434243761,
+          "stop" : 1591434244773,
+          "duration" : 1012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Can operate with One Star",
+        "uid" : "5614cb3a00f865f8",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434233179,
+          "stop" : 1591434234072,
+          "duration" : 893
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Destinations can be searched",
+        "uid" : "51b9aec55615573f",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434092033,
+          "stop" : 1591434097607,
+          "duration" : 5574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to RUB",
+        "uid" : "d5cbeeb52241a10a",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434056261,
+          "stop" : 1591434061044,
+          "duration" : 4783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to INR",
+        "uid" : "b3ab508f256db720",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434011328,
+          "stop" : 1591434016052,
+          "duration" : 4724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elements Verification for Hotels Element",
+        "uid" : "92f3e2d2631e10ef",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434145379,
+          "stop" : 1591434146032,
+          "duration" : 653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Currency change to JPY",
+        "uid" : "20242985aa2d4665",
+        "parentUid" : "128a9d52cf8d86001be1d269a429908b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591434021368,
+          "stop" : 1591434028587,
+          "duration" : 7219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "128a9d52cf8d86001be1d269a429908b"
+    }, {
+      "name" : "3824@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "5d0fc3f9d7047c9f",
+        "parentUid" : "6939ff105e3bb01ae4676201091b899b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591376376483,
+          "stop" : 1591376377882,
+          "duration" : 1399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6939ff105e3bb01ae4676201091b899b"
+    }, {
+      "name" : "3895@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "cce99539c588afc9",
+        "parentUid" : "2fed7cd7de12455089e47572fc0f757b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591376432838,
+          "stop" : 1591376435444,
+          "duration" : 2606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2fed7cd7de12455089e47572fc0f757b"
+    }, {
+      "name" : "4615@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "239d343b2cdea59c",
+        "parentUid" : "275469a942e880384c3b525ae427e0ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591377737958,
+          "stop" : 1591377740413,
+          "duration" : 2455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "275469a942e880384c3b525ae427e0ee"
+    }, {
+      "name" : "5211@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "544cee6e25fb5790",
+        "parentUid" : "4581dd4018d372a3789f03940092b959",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591378387786,
+          "stop" : 1591378387791,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "OpenChromeFrontend",
+        "uid" : "36a2d3c1cabe12f3",
+        "parentUid" : "4581dd4018d372a3789f03940092b959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591378387756,
+          "stop" : 1591378387761,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4581dd4018d372a3789f03940092b959"
+    }, {
+      "name" : "3571@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Element verification for Cars modal",
+        "uid" : "f94bd4b3bc634831",
+        "parentUid" : "72ace378e84b07b8a9c522a7b3304f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591376199989,
+          "stop" : 1591376201072,
+          "duration" : 1083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72ace378e84b07b8a9c522a7b3304f13"
+    }, {
+      "name" : "4044@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "77a3ba97dd1773fd",
+        "parentUid" : "bf22c2ea3eca7ab16c5a102189ff508c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591376725103,
+          "stop" : 1591376727624,
+          "duration" : 2521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf22c2ea3eca7ab16c5a102189ff508c"
+    }, {
+      "name" : "5140@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "7a28b972646d0168",
+        "parentUid" : "d3dab7946fb319d912157733dcc3a013",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591378353689,
+          "stop" : 1591378364277,
+          "duration" : 10588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3dab7946fb319d912157733dcc3a013"
+    }, {
+      "name" : "7814@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Currency change to KWD",
+        "uid" : "23177a7efcbece4a",
+        "parentUid" : "e9b4d25a4b4258e1283fbf5150ab1b5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591389345824,
+          "stop" : 1591389350596,
+          "duration" : 4772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9b4d25a4b4258e1283fbf5150ab1b5c"
+    }, {
+      "name" : "6951@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Search Results Verification",
+        "uid" : "4907858d59c7281f",
+        "parentUid" : "74e7f7261d8ecc6e9cb9bfa10c439712",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591388841253,
+          "stop" : 1591388841319,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74e7f7261d8ecc6e9cb9bfa10c439712"
+    }, {
+      "name" : "3759@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Element verification for Cars modal",
+        "uid" : "ceb3740db4460493",
+        "parentUid" : "4007eabf96028557a3d8ade422458819",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591376252052,
+          "stop" : 1591376253180,
+          "duration" : 1128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4007eabf96028557a3d8ade422458819"
+    }, {
+      "name" : "4519@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "808383ab08c779c9",
+        "parentUid" : "d993af792a4e05c804ce4037cf181c23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591377619581,
+          "stop" : 1591377622107,
+          "duration" : 2526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d993af792a4e05c804ce4037cf181c23"
+    }, {
+      "name" : "11591@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Can operate with One Star",
+        "uid" : "7b76eed6e7891b6",
+        "parentUid" : "f682b371180c5d21865d275f752a49e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433590901,
+          "stop" : 1591433591928,
+          "duration" : 1027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Can operate with One Star",
+        "uid" : "5352d35ee28de8e0",
+        "parentUid" : "f682b371180c5d21865d275f752a49e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433605324,
+          "stop" : 1591433606291,
+          "duration" : 967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Can operate with One Star",
+        "uid" : "ddda461eba4ff526",
+        "parentUid" : "f682b371180c5d21865d275f752a49e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433636869,
+          "stop" : 1591433637928,
+          "duration" : 1059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Top Banner verification",
+        "uid" : "fcf98f82161f53ff",
+        "parentUid" : "f682b371180c5d21865d275f752a49e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433530355,
+          "stop" : 1591433533626,
+          "duration" : 3271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Can operate with Five Stars",
+        "uid" : "9fed12a6e5ef421e",
+        "parentUid" : "f682b371180c5d21865d275f752a49e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433575872,
+          "stop" : 1591433576922,
+          "duration" : 1050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Filter Search modal Verification",
+        "uid" : "4dce1adcf4b0f800",
+        "parentUid" : "f682b371180c5d21865d275f752a49e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433547659,
+          "stop" : 1591433548648,
+          "duration" : 989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search Results Verification",
+        "uid" : "ffbcdd243b0b244",
+        "parentUid" : "f682b371180c5d21865d275f752a49e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433561940,
+          "stop" : 1591433562899,
+          "duration" : 959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Can operate with One Star",
+        "uid" : "1604359f8a22b5ff",
+        "parentUid" : "f682b371180c5d21865d275f752a49e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433620541,
+          "stop" : 1591433621498,
+          "duration" : 957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f682b371180c5d21865d275f752a49e6"
+    }, {
+      "name" : "10434@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Filter Search modal Verification",
+        "uid" : "c16e5abf81342298",
+        "parentUid" : "008dbdfd6fdf3119b6145829588b8e59",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591431323781,
+          "stop" : 1591431324687,
+          "duration" : 906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "008dbdfd6fdf3119b6145829588b8e59"
+    }, {
+      "name" : "10291@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Filter Search modal Verification",
+        "uid" : "ccf1848201d65063",
+        "parentUid" : "6051b335263e1032dcfeadf1848f3284",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591430790453,
+          "stop" : 1591430791608,
+          "duration" : 1155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6051b335263e1032dcfeadf1848f3284"
+    }, {
+      "name" : "11342@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Can operate with One Star",
+        "uid" : "46c35e2f1f322112",
+        "parentUid" : "94ccf1b18931edf6acf429d89c6a2b6b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591433344017,
+          "stop" : 1591433345015,
+          "duration" : 998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94ccf1b18931edf6acf429d89c6a2b6b"
+    }, {
+      "name" : "6828@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Search Results Verification",
+        "uid" : "6441d188a063ff96",
+        "parentUid" : "e1fac05df05f07113ce6d9226442def8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591388632338,
+          "stop" : 1591388632409,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1fac05df05f07113ce6d9226442def8"
+    }, {
+      "name" : "11534@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Can operate with One Star",
+        "uid" : "e596b87c5e63321e",
+        "parentUid" : "6f8a26e7fe32b94df7eeff8763b74fc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433506226,
+          "stop" : 1591433507153,
+          "duration" : 927
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f8a26e7fe32b94df7eeff8763b74fc7"
+    }, {
+      "name" : "10871@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Filter Search modal Verification",
+        "uid" : "a1650d82fa9f5970",
+        "parentUid" : "30134423f8365423106133446d672968",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591431755856,
+          "stop" : 1591431756841,
+          "duration" : 985
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30134423f8365423106133446d672968"
+    }, {
+      "name" : "11092@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Filter Search modal Verification",
+        "uid" : "494ae89370a4d3f4",
+        "parentUid" : "f6db4e79d483f24024e17d58f983f60d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591432465294,
+          "stop" : 1591432466432,
+          "duration" : 1138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6db4e79d483f24024e17d58f983f60d"
+    }, {
+      "name" : "3433@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "d0ac9c983fadf604",
+        "parentUid" : "2accfd9aeebf2396a7db266b876d56bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591376101163,
+          "stop" : 1591376102664,
+          "duration" : 1501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2accfd9aeebf2396a7db266b876d56bf"
+    }, {
+      "name" : "3507@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "3131235660aded1",
+        "parentUid" : "5b3bea74ca9134359f3e3efaafe8573a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591376152953,
+          "stop" : 1591376154543,
+          "duration" : 1590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b3bea74ca9134359f3e3efaafe8573a"
+    }, {
+      "name" : "2620@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "a2a72aadf90718ba",
+        "parentUid" : "50eaabaacc6eac8c0756a566599d9b0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591374570143,
+          "stop" : 1591374571495,
+          "duration" : 1352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "50eaabaacc6eac8c0756a566599d9b0f"
+    }, {
+      "name" : "5088@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "727b94089111286e",
+        "parentUid" : "e44e52b97f63ac6cad1631b300fb0bb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591378303282,
+          "stop" : 1591378308717,
+          "duration" : 5435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e44e52b97f63ac6cad1631b300fb0bb5"
+    }, {
+      "name" : "8742@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Top Banner verification",
+        "uid" : "d99a80a54fcd2e92",
+        "parentUid" : "1cd5184cb43a618ba785647054a465ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591390348911,
+          "stop" : 1591390349545,
+          "duration" : 634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1cd5184cb43a618ba785647054a465ce"
+    }, {
+      "name" : "5303@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "5acf17e88c77fe90",
+        "parentUid" : "44e915c503ec503daf299234880078c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591378517066,
+          "stop" : 1591378525699,
+          "duration" : 8633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44e915c503ec503daf299234880078c2"
+    }, {
+      "name" : "2548@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "952df6563ea07958",
+        "parentUid" : "49556b9066380b170119d860e8db9d2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591374393301,
+          "stop" : 1591374394512,
+          "duration" : 1211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49556b9066380b170119d860e8db9d2f"
+    }, {
+      "name" : "10979@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Search Results Verification",
+        "uid" : "d83fba3234290703",
+        "parentUid" : "0e2cfe9a7afd8797fe6608d75b9c334f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591432021835,
+          "stop" : 1591432022625,
+          "duration" : 790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e2cfe9a7afd8797fe6608d75b9c334f"
+    }, {
+      "name" : "10512@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Filter Search modal Verification",
+        "uid" : "dbf4a07c5209f82f",
+        "parentUid" : "27bc35bb3b175f54f183b42563177174",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591431405261,
+          "stop" : 1591431406196,
+          "duration" : 935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27bc35bb3b175f54f183b42563177174"
+    }, {
+      "name" : "2200@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "e8e670a7288f12c4",
+        "parentUid" : "0e9c0ab463e0d23e7033f42a3c11d397",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591374103355,
+          "stop" : 1591374104761,
+          "duration" : 1406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e9c0ab463e0d23e7033f42a3c11d397"
+    }, {
+      "name" : "3980@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "fe6c1a9808181708",
+        "parentUid" : "f097031a3f980049c61759e52c07651e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591376689117,
+          "stop" : 1591376691542,
+          "duration" : 2425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f097031a3f980049c61759e52c07651e"
+    }, {
+      "name" : "2778@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "3091a8696588f711",
+        "parentUid" : "b48317b3325d4c8a1d72331bc60a8fca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591374851003,
+          "stop" : 1591374854355,
+          "duration" : 3352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b48317b3325d4c8a1d72331bc60a8fca"
+    }, {
+      "name" : "4771@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "45e1f58bc4dedc73",
+        "parentUid" : "2073784e580348b054bc0c7885ccdb35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591377892105,
+          "stop" : 1591377895798,
+          "duration" : 3693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2073784e580348b054bc0c7885ccdb35"
+    }, {
+      "name" : "10716@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Filter Search modal Verification",
+        "uid" : "1e09bcbda86b6b00",
+        "parentUid" : "1cc9fec3c69b60de33791f5aa9aa3a16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591431596198,
+          "stop" : 1591431597125,
+          "duration" : 927
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1cc9fec3c69b60de33791f5aa9aa3a16"
+    }, {
+      "name" : "8957@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Top Banner verification",
+        "uid" : "e9acf322abad9d6f",
+        "parentUid" : "8b200ff325e6258a74c85765e3c88c2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591391145389,
+          "stop" : 1591391148417,
+          "duration" : 3028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b200ff325e6258a74c85765e3c88c2e"
+    }, {
+      "name" : "2839@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "63baaa47157ad534",
+        "parentUid" : "8448c6931052b14e6d7be5dda02278fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591374895866,
+          "stop" : 1591374898339,
+          "duration" : 2473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8448c6931052b14e6d7be5dda02278fe"
+    }, {
+      "name" : "11469@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Can operate with One Star",
+        "uid" : "a6d02010a7c27c5d",
+        "parentUid" : "0cb63acaec8864e8b270b3eb8bd0a15c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433477344,
+          "stop" : 1591433478299,
+          "duration" : 955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cb63acaec8864e8b270b3eb8bd0a15c"
+    }, {
+      "name" : "2440@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "6ffa9d9d23c764ec",
+        "parentUid" : "8a07da1bc0070253c368a8bbe855144b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591374307066,
+          "stop" : 1591374308245,
+          "duration" : 1179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a07da1bc0070253c368a8bbe855144b"
+    }, {
+      "name" : "10193@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Search Modal verification",
+        "uid" : "c02a5d6bc9070368",
+        "parentUid" : "66eebfeb0bba56cac55e2143b63e370a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591022189268,
+          "stop" : 1591022190109,
+          "duration" : 841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66eebfeb0bba56cac55e2143b63e370a"
+    }, {
+      "name" : "4104@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "c6fe3c5ad32debcd",
+        "parentUid" : "7171c03fa210018656811f598034a79d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591376780012,
+          "stop" : 1591376782557,
+          "duration" : 2545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7171c03fa210018656811f598034a79d"
+    }, {
+      "name" : "6887@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Search Results Verification",
+        "uid" : "ab91551a2e874014",
+        "parentUid" : "d74c1ad8e4c594b09dd80c6e24b0cf39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591388733818,
+          "stop" : 1591388733872,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d74c1ad8e4c594b09dd80c6e24b0cf39"
+    }, {
+      "name" : "2368@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "35ef3b1a2aded893",
+        "parentUid" : "fc12a5af52d777dedc8ff7da88630cb4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591374202149,
+          "stop" : 1591374203395,
+          "duration" : 1246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc12a5af52d777dedc8ff7da88630cb4"
+    }, {
+      "name" : "11870@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Search Modal verification",
+        "uid" : "c2bd4c9152f3c8cf",
+        "parentUid" : "741616656fc7f93b1a038a4eb18906d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433761930,
+          "stop" : 1591433762688,
+          "duration" : 758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Top Banner verification",
+        "uid" : "3fdb639d6c4d21d8",
+        "parentUid" : "741616656fc7f93b1a038a4eb18906d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433769041,
+          "stop" : 1591433771613,
+          "duration" : 2572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "741616656fc7f93b1a038a4eb18906d8"
+    }, {
+      "name" : "4235@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "ee35ff4b151db37f",
+        "parentUid" : "1b97a8753ffe95d383fb6fdef55795c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591376836841,
+          "stop" : 1591376839375,
+          "duration" : 2534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b97a8753ffe95d383fb6fdef55795c2"
+    }, {
+      "name" : "4433@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "107f577cb2664f7c",
+        "parentUid" : "68e0694b609cff4fa51ed8c58ce31e52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591377367847,
+          "stop" : 1591377369341,
+          "duration" : 1494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68e0694b609cff4fa51ed8c58ce31e52"
+    }, {
+      "name" : "3713@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Element verification for Cars modal",
+        "uid" : "cb49c8f324f331bd",
+        "parentUid" : "075a6b549dc940842e342ec17ca05959",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591376225439,
+          "stop" : 1591376226495,
+          "duration" : 1056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "075a6b549dc940842e342ec17ca05959"
+    }, {
+      "name" : "4176@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "6c40a071ab3e85d6",
+        "parentUid" : "b9517980f639c8f96dc01145839f3c9b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591376808765,
+          "stop" : 1591376811308,
+          "duration" : 2543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b9517980f639c8f96dc01145839f3c9b"
+    }, {
+      "name" : "11407@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Can operate with One Star",
+        "uid" : "c0f5bbbf08933704",
+        "parentUid" : "8f0b4720b892ff109f5be00d36f1af75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433378020,
+          "stop" : 1591433379062,
+          "duration" : 1042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f0b4720b892ff109f5be00d36f1af75"
+    }, {
+      "name" : "5440@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Search Results Verification",
+        "uid" : "65152f43a74e9e45",
+        "parentUid" : "8c07914433cb7e8ef2b9d150ffb98839",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591379016044,
+          "stop" : 1591379016069,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8c07914433cb7e8ef2b9d150ffb98839"
+    }, {
+      "name" : "10216@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Filter Search modal Verification",
+        "uid" : "45e2b4ef0480e33c",
+        "parentUid" : "10ebea98c0f1a97b0156d1c33d08667e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591430746037,
+          "stop" : 1591430746897,
+          "duration" : 860
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10ebea98c0f1a97b0156d1c33d08667e"
+    }, {
+      "name" : "5476@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "accessResultsPage",
+        "uid" : "78adec1152d0cd22",
+        "parentUid" : "8cdf2bf9cb274015a2825eca1f289619",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591379276998,
+          "stop" : 1591379277000,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search Results Verification",
+        "uid" : "5fe401eedef0b838",
+        "parentUid" : "8cdf2bf9cb274015a2825eca1f289619",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591379277017,
+          "stop" : 1591379277019,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8cdf2bf9cb274015a2825eca1f289619"
+    }, {
+      "name" : "4863@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be retrieved when searched",
+        "uid" : "1cd02aaf9f8c34b4",
+        "parentUid" : "707b71192691631cc5d17cc2703a7bb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591378043128,
+          "stop" : 1591378045672,
+          "duration" : 2544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "707b71192691631cc5d17cc2703a7bb5"
+    }, {
+      "name" : "10271@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Close",
+        "uid" : "51c710ca6a76d3b0",
+        "parentUid" : "5e52b77571febd3d52c7a1e85d2c07ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591022345449,
+          "stop" : 1591022345449,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Top Banner verification",
+        "uid" : "2ef2600e7237e9d5",
+        "parentUid" : "5e52b77571febd3d52c7a1e85d2c07ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591022312170,
+          "stop" : 1591022314951,
+          "duration" : 2781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e52b77571febd3d52c7a1e85d2c07ba"
+    }, {
+      "name" : "12100@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Search Modal verification",
+        "uid" : "52e883d5688ff31e",
+        "parentUid" : "695a6fdc1eeb53fbbe666fa5ff667574",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591433931847,
+          "stop" : 1591433932653,
+          "duration" : 806
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "695a6fdc1eeb53fbbe666fa5ff667574"
+    }, {
+      "name" : "10585@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Filter Search modal Verification",
+        "uid" : "954c123b713587e8",
+        "parentUid" : "08437341199ecf24c8fc321fad746096",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591431506524,
+          "stop" : 1591431507638,
+          "duration" : 1114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08437341199ecf24c8fc321fad746096"
+    }, {
+      "name" : "3094@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "d89ebcf181d38cd3",
+        "parentUid" : "ddfeea248f671d3c0c9a529b0a50ed4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591375271266,
+          "stop" : 1591375272581,
+          "duration" : 1315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddfeea248f671d3c0c9a529b0a50ed4c"
+    }, {
+      "name" : "5236@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "e8e4a1123c5c9ef6",
+        "parentUid" : "b93605cc96eb27821ae56f0699c319b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591378407621,
+          "stop" : 1591378416908,
+          "duration" : 9287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b93605cc96eb27821ae56f0699c319b9"
+    }, {
+      "name" : "4929@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "c0571c8afd8d123",
+        "parentUid" : "4899207a760c1f66646735c311fea571",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591378075341,
+          "stop" : 1591378080632,
+          "duration" : 5291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4899207a760c1f66646735c311fea571"
+    }, {
+      "name" : "2923@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Destinations can be searched",
+        "uid" : "75c303486ec7ba89",
+        "parentUid" : "5a3a9635ee96b56f02eed0cf29238fda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591375024350,
+          "stop" : 1591375026700,
+          "duration" : 2350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a3a9635ee96b56f02eed0cf29238fda"
+    }, {
+      "name" : "10649@IEDUBM4046103A.main(1)",
+      "children" : [ {
+        "name" : "Filter Search modal Verification",
+        "uid" : "eb991c7d0c072316",
+        "parentUid" : "ca72b67adc5d217d03b0fea3e5383418",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591431559300,
+          "stop" : 1591431560124,
+          "duration" : 824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca72b67adc5d217d03b0fea3e5383418"
+    } ],
+    "uid" : "c5781f4f7110858090f45ffe94bf4c67"
+  } ]
+}

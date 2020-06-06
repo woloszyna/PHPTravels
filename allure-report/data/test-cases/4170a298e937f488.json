@@ -1,0 +1,183 @@
+{
+  "uid" : "4170a298e937f488",
+  "name" : "Search Results Verification",
+  "fullName" : "Frontend.VerifyResultsPage.resultsPageVerification",
+  "historyId" : "88a1ed885da6374a586094bc7585bf30",
+  "time" : {
+    "start" : 1591434201500,
+    "stop" : 1591434202374,
+    "duration" : 874
+  },
+  "description" : "Verify if all elements are displayed in the results page",
+  "descriptionHtml" : "<p>Verify if all elements are displayed in the results page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591434191101,
+      "stop" : 1591434200165,
+      "duration" : 9064
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591434202375,
+      "stop" : 1591434202815,
+      "duration" : 440
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "resultsPageVerification"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite "
+  }, {
+    "name" : "suite",
+    "value" : "Verification of the Search Results Page"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "12178@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "ffbcdd243b0b244",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591433561940,
+        "stop" : 1591433562899,
+        "duration" : 959
+      }
+    }, {
+      "uid" : "d83fba3234290703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591432021835,
+        "stop" : 1591432022625,
+        "duration" : 790
+      }
+    }, {
+      "uid" : "ac6d29e213033382",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591389566591,
+        "stop" : 1591389566629,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "a2304b23f8aa53c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591389140934,
+        "stop" : 1591389140969,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "4907858d59c7281f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591388841253,
+        "stop" : 1591388841319,
+        "duration" : 66
+      }
+    }, {
+      "uid" : "ab91551a2e874014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591388733818,
+        "stop" : 1591388733872,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "6441d188a063ff96",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#listing\"}\n  (Session info: chrome=83.0.4103.97)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'IEDUBM4046103A', ip: '2a02:8084:4ec1:2900:9d3:fc6:3a44:9b04%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '14'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:63355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b13951d4d9661ca82cd21e6569cdc213\n*** Element info: {Using=id, value=listing}",
+      "time" : {
+        "start" : 1591388632338,
+        "stop" : 1591388632409,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "5fe401eedef0b838",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1591379277017,
+        "stop" : 1591379277019,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "65152f43a74e9e45",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1591379016044,
+        "stop" : 1591379016069,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "df132b637931333a",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1591378909482,
+        "stop" : 1591378909513,
+        "duration" : 31
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4170a298e937f488.json",
+  "parameterValues" : [ ]
+}

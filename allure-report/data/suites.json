@@ -1,0 +1,509 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "PHPTravels",
+      "children" : [ {
+        "name" : "Frontend.VerifyLandingPage",
+        "children" : [ {
+          "name" : "Close",
+          "uid" : "51c710ca6a76d3b0",
+          "parentUid" : "5ff8fa6a12262506d9b9ee1b5e997913",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591022345449,
+            "stop" : 1591022345449,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Destinations can be searched",
+          "uid" : "ee35ff4b151db37f",
+          "parentUid" : "5ff8fa6a12262506d9b9ee1b5e997913",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591376836841,
+            "stop" : 1591376839375,
+            "duration" : 2534
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "OpenChromeFrontend",
+          "uid" : "36a2d3c1cabe12f3",
+          "parentUid" : "5ff8fa6a12262506d9b9ee1b5e997913",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591378387756,
+            "stop" : 1591378387761,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5ff8fa6a12262506d9b9ee1b5e997913"
+      }, {
+        "name" : "Frontend.VerifyResultsPage",
+        "children" : [ {
+          "name" : "accessResultsPage",
+          "uid" : "78adec1152d0cd22",
+          "parentUid" : "eb2d0fbec68af14beb1203bd503ca0fe",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591379276998,
+            "stop" : 1591379277000,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eb2d0fbec68af14beb1203bd503ca0fe"
+      } ],
+      "uid" : "e34ba178ae7fc38a2ffb90c6f2d862d9"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Regression Suite ",
+    "children" : [ {
+      "name" : "Verification of the Landing Page",
+      "children" : [ {
+        "name" : "Frontend.VerifyLandingPage",
+        "children" : [ {
+          "name" : "Search Modal verification",
+          "uid" : "4c88cd66f5c4b82e",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591433963833,
+            "stop" : 1591433964664,
+            "duration" : 831
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Top Banner verification",
+          "uid" : "963e14b12b2c7bfb",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591433970377,
+            "stop" : 1591433972908,
+            "duration" : 2531
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Currency change to CNY",
+          "uid" : "bbbceb9837b1ba41",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591433978523,
+            "stop" : 1591433983348,
+            "duration" : 4825
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Currency change to EUR",
+          "uid" : "53b72413e38e86a6",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591433989003,
+            "stop" : 1591433993725,
+            "duration" : 4722
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Currency change to GBP",
+          "uid" : "7fea14e3fd9a8ac3",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434001224,
+            "stop" : 1591434005904,
+            "duration" : 4680
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Currency change to INR",
+          "uid" : "b3ab508f256db720",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434011328,
+            "stop" : 1591434016052,
+            "duration" : 4724
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Currency change to JPY",
+          "uid" : "20242985aa2d4665",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434021368,
+            "stop" : 1591434028587,
+            "duration" : 7219
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Currency change to KWD",
+          "uid" : "1e19293bfb3e4d98",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434033620,
+            "stop" : 1591434038337,
+            "duration" : 4717
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Currency change to PKR",
+          "uid" : "17225474fbf1e0ef",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434043382,
+            "stop" : 1591434048092,
+            "duration" : 4710
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Currency change to RUB",
+          "uid" : "d5cbeeb52241a10a",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434056261,
+            "stop" : 1591434061044,
+            "duration" : 4783
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Currency change to SAR",
+          "uid" : "b423178604ef0ca1",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434070804,
+            "stop" : 1591434075457,
+            "duration" : 4653
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Currency change to TRY",
+          "uid" : "66631910d13d0b9c",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434081568,
+            "stop" : 1591434086333,
+            "duration" : 4765
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Destinations can be searched",
+          "uid" : "51b9aec55615573f",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434092033,
+            "stop" : 1591434097607,
+            "duration" : 5574
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Element verification for Cars modal",
+          "uid" : "3b6cae406d92fc6",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434102879,
+            "stop" : 1591434103822,
+            "duration" : 943
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Element verification for Flights modal",
+          "uid" : "c99c99faf1c4fe00",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434109171,
+            "stop" : 1591434110689,
+            "duration" : 1518
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Element verification for Hotels modal",
+          "uid" : "6d2b10c5986f33eb",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434115679,
+            "stop" : 1591434116527,
+            "duration" : 848
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Element verification for Tours modal",
+          "uid" : "ed3036b1f05048f7",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434121406,
+            "stop" : 1591434122173,
+            "duration" : 767
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Element verification for Visa modal",
+          "uid" : "7fd18e00ea8d106c",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434127161,
+            "stop" : 1591434127810,
+            "duration" : 649
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Elements Verification for Cars Element",
+          "uid" : "249080d0b442da8f",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434134063,
+            "stop" : 1591434134689,
+            "duration" : 626
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Elements Verification for Flights Element",
+          "uid" : "892224824f7d79fd",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434139665,
+            "stop" : 1591434140289,
+            "duration" : 624
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Elements Verification for Hotels Element",
+          "uid" : "92f3e2d2631e10ef",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434145379,
+            "stop" : 1591434146032,
+            "duration" : 653
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Elements Verification for Tours Element",
+          "uid" : "7fb5d592e47bea5",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434150807,
+            "stop" : 1591434151594,
+            "duration" : 787
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Elements Verification for Visa Element",
+          "uid" : "b0c388a2d2fb237",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434156736,
+            "stop" : 1591434157399,
+            "duration" : 663
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Destinations can be retrieved when searched",
+          "uid" : "7c7dfa87356e44eb",
+          "parentUid" : "bfa3f97f2a95786f269e398fdbd29860",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434162475,
+            "stop" : 1591434164922,
+            "duration" : 2447
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bfa3f97f2a95786f269e398fdbd29860"
+      } ],
+      "uid" : "9c689e96e21e10cba264c3bb2fdd823f"
+    }, {
+      "name" : "Verification of the Search Results Page",
+      "children" : [ {
+        "name" : "Frontend.VerifyResultsPage",
+        "children" : [ {
+          "name" : "Top Banner verification",
+          "uid" : "2d17ba1c0d32b572",
+          "parentUid" : "b2a8e166631b4123feea6f4ad3a496d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434176569,
+            "stop" : 1591434179254,
+            "duration" : 2685
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Filter Search modal Verification",
+          "uid" : "b1dd49171f608f0d",
+          "parentUid" : "b2a8e166631b4123feea6f4ad3a496d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434189646,
+            "stop" : 1591434190670,
+            "duration" : 1024
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Search Results Verification",
+          "uid" : "4170a298e937f488",
+          "parentUid" : "b2a8e166631b4123feea6f4ad3a496d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434201500,
+            "stop" : 1591434202374,
+            "duration" : 874
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Can operate with Five Stars",
+          "uid" : "2886bc844d9fa295",
+          "parentUid" : "b2a8e166631b4123feea6f4ad3a496d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434211616,
+            "stop" : 1591434212661,
+            "duration" : 1045
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Can operate with One Star",
+          "uid" : "cf9520f82d2091",
+          "parentUid" : "b2a8e166631b4123feea6f4ad3a496d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434222509,
+            "stop" : 1591434223419,
+            "duration" : 910
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Can operate with One Star",
+          "uid" : "5614cb3a00f865f8",
+          "parentUid" : "b2a8e166631b4123feea6f4ad3a496d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434233179,
+            "stop" : 1591434234072,
+            "duration" : 893
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Can operate with One Star",
+          "uid" : "eec1b9279e809f3d",
+          "parentUid" : "b2a8e166631b4123feea6f4ad3a496d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434243761,
+            "stop" : 1591434244773,
+            "duration" : 1012
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Can operate with One Star",
+          "uid" : "b715e75efe127c50",
+          "parentUid" : "b2a8e166631b4123feea6f4ad3a496d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591434254623,
+            "stop" : 1591434255598,
+            "duration" : 975
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b2a8e166631b4123feea6f4ad3a496d5"
+      } ],
+      "uid" : "53dc7c3e1a9998a987e63bc1bddb90b5"
+    } ],
+    "uid" : "deed742d248d0c1fba2349acf7c67c0c"
+  } ]
+}
