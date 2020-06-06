@@ -9,9 +9,11 @@ public class LandingPage extends BasicOperations {
 
     BasicOperations  BasicOperations = new BasicOperations();
 
+    //Headers
     public WebElement mainHeader = driver.findElement(By.className("header-main"));
     public WebElement topHeader = driver.findElement(By.className("header-top"));
 
+    //Currency Dropdown
     public WebElement currencyDropdown = driver.findElement(By.className("dropdown-currency"));
     public String currencyFont = driver.findElement(By.className("dropdown-currency")).getCssValue("font-size");//13px
 
@@ -32,17 +34,17 @@ public class LandingPage extends BasicOperations {
     public String flagFont = driver.findElement(By.className("dropdown-language")).getCssValue("font-size");//13px
 
     //Currency Options
-    public WebElement languageOptionUSD = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[1]"));
-    public WebElement languageOptionGBP = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[2]"));
-    public WebElement languageOptionSAR = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[3]"));
-    public WebElement languageOptionEUR = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[4]"));
-    public WebElement languageOptionPKR = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[5]"));
-    public WebElement languageOptionKWD = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[6]"));
-    public WebElement languageOptionJPY = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[7]"));
-    public WebElement languageOptionINR = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[8]"));
-    public WebElement languageOptionCNY = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[9]"));
-    public WebElement languageOptionTRY = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[10]"));
-    public WebElement languageOptionRUB = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[11]"));
+    public WebElement currencyOptionUSD = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[1]"));
+    public WebElement currencyOptionGBP = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[2]"));
+    public WebElement currencyOptionSAR = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[3]"));
+    public WebElement currencyOptionEUR = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[4]"));
+    public WebElement currencyOptionPKR = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[5]"));
+    public WebElement currencyOptionKWD = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[6]"));
+    public WebElement currencyOptionJPY = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[7]"));
+    public WebElement currencyOptionINR = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[8]"));
+    public WebElement currencyOptionCNY = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[9]"));
+    public WebElement currencyOptionTRY = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[10]"));
+    public WebElement currencyOptionRUB = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[1]/div/div/div/a[11]"));
 
     public WebElement myAccDropdown = driver.findElement(By.className("dropdown-login"));
     public String myAccFont = driver.findElement(By.className("dropdown-login")).getCssValue("font-size");//13px
@@ -77,70 +79,70 @@ public class LandingPage extends BasicOperations {
     public void canChangeCurrencyToGBP(){
 
         currencyDropdown.click();
-        languageOptionGBP.click();
+        currencyOptionGBP.click();
 
     }
 
     public void canChangeCurrencyToSAR(){
 
         currencyDropdown.click();
-        languageOptionSAR.click();
+        currencyOptionSAR.click();
 
     }
 
     public void canChangeCurrencyToEUR(){
 
         currencyDropdown.click();
-        languageOptionEUR.click();
+        currencyOptionEUR.click();
 
     }
 
     public void canChangeCurrencyToPKR(){
 
         currencyDropdown.click();
-        languageOptionPKR.click();
+        currencyOptionPKR.click();
 
     }
 
     public void canChangeCurrencyToKWD(){
 
         currencyDropdown.click();
-        languageOptionKWD.click();
+        currencyOptionKWD.click();
 
     }
 
     public void canChangeCurrencyToJPY(){
 
         currencyDropdown.click();
-        languageOptionJPY.click();
+        currencyOptionJPY.click();
 
     }
 
     public void canChangeCurrencyToINR(){
 
         currencyDropdown.click();
-        languageOptionINR.click();
+        currencyOptionINR.click();
 
     }
 
     public void canChangeCurrencyToCNY(){
 
         currencyDropdown.click();
-        languageOptionCNY.click();
+        currencyOptionCNY.click();
 
     }
 
     public void canChangeCurrencyToTRY(){
 
         currencyDropdown.click();
-        languageOptionTRY.click();
+        currencyOptionTRY.click();
 
     }
 
     public void canChangeCurrencyToRUB(){
 
         currencyDropdown.click();
-        languageOptionRUB.click();
+        currencyOptionRUB.click();
 
     }
 

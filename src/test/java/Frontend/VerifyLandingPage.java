@@ -38,17 +38,17 @@ public class VerifyLandingPage extends BasicOperations {
         assertTrue(LandingPage.currencyDropdown.isDisplayed());
         assertEquals(LandingPage.currencyFont,"13px");
         LandingPage.currencyDropdown.click();
-        assertTrue(LandingPage.languageOptionUSD.isDisplayed());
-        assertTrue(LandingPage.languageOptionGBP.isDisplayed());
-        assertTrue(LandingPage.languageOptionSAR.isDisplayed());
-        assertTrue(LandingPage.languageOptionEUR.isDisplayed());
-        assertTrue(LandingPage.languageOptionPKR.isDisplayed());
-        assertTrue(LandingPage.languageOptionKWD.isDisplayed());
-        assertTrue(LandingPage.languageOptionJPY.isDisplayed());
-        assertTrue(LandingPage.languageOptionINR.isDisplayed());
-        assertTrue(LandingPage.languageOptionCNY.isDisplayed());
-        assertTrue(LandingPage.languageOptionTRY.isDisplayed());
-        assertTrue(LandingPage.languageOptionRUB.isDisplayed());
+        assertTrue(LandingPage.currencyOptionUSD.isDisplayed());
+        assertTrue(LandingPage.currencyOptionGBP.isDisplayed());
+        assertTrue(LandingPage.currencyOptionSAR.isDisplayed());
+        assertTrue(LandingPage.currencyOptionEUR.isDisplayed());
+        assertTrue(LandingPage.currencyOptionPKR.isDisplayed());
+        assertTrue(LandingPage.currencyOptionKWD.isDisplayed());
+        assertTrue(LandingPage.currencyOptionJPY.isDisplayed());
+        assertTrue(LandingPage.currencyOptionINR.isDisplayed());
+        assertTrue(LandingPage.currencyOptionCNY.isDisplayed());
+        assertTrue(LandingPage.currencyOptionTRY.isDisplayed());
+        assertTrue(LandingPage.currencyOptionRUB.isDisplayed());
 
         BasicOperations.takeScreenshot();
 
@@ -559,7 +559,7 @@ public class VerifyLandingPage extends BasicOperations {
     }
 
     @AfterSuite
-    public void runAllure() {
+    public void allureReport() {
 
         BasicOperations.runAllure();
 

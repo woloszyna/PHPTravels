@@ -1,9 +1,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression Suite ">
-    <test name="Some Great Test Suite">
+    <test name="Verification of the Landing Page">
         <classes>
             <!--<class name="FeatureTests.VerifyTopBar"/> a full name of the class incl. package.class-->
             <class name="Frontend.VerifyLandingPage"/>
+        </classes>
+    </test>
+    <test name="Verification of the Search Results Page">
+        <classes>
+            <!--<class name="FeatureTests.VerifyTopBar"/> a full name of the class incl. package.class-->
+            <class name="Frontend.VerifyResultsPage"/>
         </classes>
     </test>
 </suite>
