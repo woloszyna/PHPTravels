@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "Element verification for Cars modal",
+        "uid" : "28999b07ea395df6",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594194788037,
+          "stop" : 1594194795205,
+          "duration" : 7168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    }, {
+      "name" : "expected [LHE] but found [NYC]",
+      "children" : [ {
+        "name" : "Element verification for Flights modal",
+        "uid" : "392367221e178805",
+        "parentUid" : "2666b62d351c3d22c0effdc06b4a380e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594194813647,
+          "stop" : 1594194816723,
+          "duration" : 3076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2666b62d351c3d22c0effdc06b4a380e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

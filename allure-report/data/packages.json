@@ -1,0 +1,282 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Frontend.VerifyLandingPage",
+    "children" : [ {
+      "name" : "VerifySearchModal",
+      "uid" : "5d7e96cf449fd9a4",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194547123,
+        "stop" : 1594194549189,
+        "duration" : 2066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "VerifyTopBanner",
+      "uid" : "4c3cde2f48cddc8",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194565842,
+        "stop" : 1594194570455,
+        "duration" : 4613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canChangeCurrencyToCNY",
+      "uid" : "e81732085d393471",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194592823,
+        "stop" : 1594194598941,
+        "duration" : 6118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canChangeCurrencyToEUR",
+      "uid" : "efb5c1e6f3645818",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194618020,
+        "stop" : 1594194624348,
+        "duration" : 6328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canChangeCurrencyToGBP",
+      "uid" : "c9f72a3827c567cf",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194636922,
+        "stop" : 1594194643214,
+        "duration" : 6292
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canChangeCurrencyToINR",
+      "uid" : "93f681cc15d809dd",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194655712,
+        "stop" : 1594194661735,
+        "duration" : 6023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canChangeCurrencyToJPY",
+      "uid" : "c1294178cc5ae1fa",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194674795,
+        "stop" : 1594194680997,
+        "duration" : 6202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canChangeCurrencyToKWD",
+      "uid" : "fab9fd8a32a9559",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194693366,
+        "stop" : 1594194699583,
+        "duration" : 6217
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canChangeCurrencyToPKR",
+      "uid" : "3beb12834ffb30ee",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194712243,
+        "stop" : 1594194718598,
+        "duration" : 6355
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canChangeCurrencyToRUB",
+      "uid" : "95e5f251a963925",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194730408,
+        "stop" : 1594194736717,
+        "duration" : 6309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canChangeCurrencyToSAR",
+      "uid" : "c4cee5ed9974315a",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194748317,
+        "stop" : 1594194754854,
+        "duration" : 6537
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "canChangeCurrencyToTRY",
+      "uid" : "e73a1a9a1e976508",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194766319,
+        "stop" : 1594194772619,
+        "duration" : 6300
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "elementsForCars",
+      "uid" : "28999b07ea395df6",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "failed",
+      "time" : {
+        "start" : 1594194788037,
+        "stop" : 1594194795205,
+        "duration" : 7168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "elementsForFlights",
+      "uid" : "392367221e178805",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "failed",
+      "time" : {
+        "start" : 1594194813647,
+        "stop" : 1594194816723,
+        "duration" : 3076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "elementsForHotels",
+      "uid" : "ee14a24eba0b34c3",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194831027,
+        "stop" : 1594194833200,
+        "duration" : 2173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "elementsForTours",
+      "uid" : "c33f4786f6c72b01",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194849270,
+        "stop" : 1594194851665,
+        "duration" : 2395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "elementsPresentForCars",
+      "uid" : "5d1e933d49e7df55",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194864151,
+        "stop" : 1594194866319,
+        "duration" : 2168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "elementsPresentForFlights",
+      "uid" : "1b7d17d18e43323a",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194877564,
+        "stop" : 1594194879656,
+        "duration" : 2092
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "elementsPresentForHotels",
+      "uid" : "a97f698364395f4c",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194891081,
+        "stop" : 1594194893456,
+        "duration" : 2375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "elementsPresentForTours",
+      "uid" : "96cb5c6bebac94ed",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194905386,
+        "stop" : 1594194907416,
+        "duration" : 2030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "elementsPresentForVisa",
+      "uid" : "2fb20a556561ae97",
+      "parentUid" : "fdbecfc8ef98b2136f73f21f3d183b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594194919115,
+        "stop" : 1594194921169,
+        "duration" : 2054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Frontend.VerifyLandingPage"
+  } ]
+}

@@ -1,0 +1,211 @@
+[ {
+  "uid" : "e73a1a9a1e976508",
+  "name" : "Currency change to TRY",
+  "time" : {
+    "start" : 1594194766319,
+    "stop" : 1594194772619,
+    "duration" : 6300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fb20a556561ae97",
+  "name" : "Elements Verification for Visa Element",
+  "time" : {
+    "start" : 1594194919115,
+    "stop" : 1594194921169,
+    "duration" : 2054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fab9fd8a32a9559",
+  "name" : "Currency change to KWD",
+  "time" : {
+    "start" : 1594194693366,
+    "stop" : 1594194699583,
+    "duration" : 6217
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a97f698364395f4c",
+  "name" : "Elements Verification for Hotels Element",
+  "time" : {
+    "start" : 1594194891081,
+    "stop" : 1594194893456,
+    "duration" : 2375
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "ee14a24eba0b34c3",
+  "name" : "Element verification for Hotels modal",
+  "time" : {
+    "start" : 1594194831027,
+    "stop" : 1594194833200,
+    "duration" : 2173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c3cde2f48cddc8",
+  "name" : "Top Banner verification",
+  "time" : {
+    "start" : 1594194565842,
+    "stop" : 1594194570455,
+    "duration" : 4613
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5d1e933d49e7df55",
+  "name" : "Elements Verification for Cars Element",
+  "time" : {
+    "start" : 1594194864151,
+    "stop" : 1594194866319,
+    "duration" : 2168
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c4cee5ed9974315a",
+  "name" : "Currency change to SAR",
+  "time" : {
+    "start" : 1594194748317,
+    "stop" : 1594194754854,
+    "duration" : 6537
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28999b07ea395df6",
+  "name" : "Element verification for Cars modal",
+  "time" : {
+    "start" : 1594194788037,
+    "stop" : 1594194795205,
+    "duration" : 7168
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c33f4786f6c72b01",
+  "name" : "Element verification for Tours modal",
+  "time" : {
+    "start" : 1594194849270,
+    "stop" : 1594194851665,
+    "duration" : 2395
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3beb12834ffb30ee",
+  "name" : "Currency change to PKR",
+  "time" : {
+    "start" : 1594194712243,
+    "stop" : 1594194718598,
+    "duration" : 6355
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c1294178cc5ae1fa",
+  "name" : "Currency change to JPY",
+  "time" : {
+    "start" : 1594194674795,
+    "stop" : 1594194680997,
+    "duration" : 6202
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "5d7e96cf449fd9a4",
+  "name" : "Search Modal verification",
+  "time" : {
+    "start" : 1594194547123,
+    "stop" : 1594194549189,
+    "duration" : 2066
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "392367221e178805",
+  "name" : "Element verification for Flights modal",
+  "time" : {
+    "start" : 1594194813647,
+    "stop" : 1594194816723,
+    "duration" : 3076
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "e81732085d393471",
+  "name" : "Currency change to CNY",
+  "time" : {
+    "start" : 1594194592823,
+    "stop" : 1594194598941,
+    "duration" : 6118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93f681cc15d809dd",
+  "name" : "Currency change to INR",
+  "time" : {
+    "start" : 1594194655712,
+    "stop" : 1594194661735,
+    "duration" : 6023
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "1b7d17d18e43323a",
+  "name" : "Elements Verification for Flights Element",
+  "time" : {
+    "start" : 1594194877564,
+    "stop" : 1594194879656,
+    "duration" : 2092
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "96cb5c6bebac94ed",
+  "name" : "Elements Verification for Tours Element",
+  "time" : {
+    "start" : 1594194905386,
+    "stop" : 1594194907416,
+    "duration" : 2030
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c9f72a3827c567cf",
+  "name" : "Currency change to GBP",
+  "time" : {
+    "start" : 1594194636922,
+    "stop" : 1594194643214,
+    "duration" : 6292
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "efb5c1e6f3645818",
+  "name" : "Currency change to EUR",
+  "time" : {
+    "start" : 1594194618020,
+    "stop" : 1594194624348,
+    "duration" : 6328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95e5f251a963925",
+  "name" : "Currency change to RUB",
+  "time" : {
+    "start" : 1594194730408,
+    "stop" : 1594194736717,
+    "duration" : 6309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

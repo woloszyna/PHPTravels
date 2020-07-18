@@ -1,0 +1,1 @@
+{"uuid":"c839f9b2-1e3d-417a-a27a-b73620c66743","name":"Regression Suite ","children":["81fc07c4-9455-4990-b29f-539ba6b1f284"],"befores":[],"afters":[{"name":"runAllure","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1590879681299,"stop":1590879681303}],"links":[],"start":1590879668261,"stop":1590879681303}
