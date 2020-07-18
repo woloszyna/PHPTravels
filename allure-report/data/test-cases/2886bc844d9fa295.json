@@ -1,0 +1,107 @@
+{
+  "uid" : "2886bc844d9fa295",
+  "name" : "Can operate with Five Stars",
+  "fullName" : "Frontend.VerifyResultsPage.fiveStarsRetrievesSomething",
+  "historyId" : "8464e28fd004f6b4cd739192ce5cc994",
+  "time" : {
+    "start" : 1591434211616,
+    "stop" : 1591434212661,
+    "duration" : 1045
+  },
+  "description" : "Verify if clicking on Five Stars in the Filter Search Modal will retrieve something",
+  "descriptionHtml" : "<p>Verify if clicking on Five Stars in the Filter Search Modal will retrieve something</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591434202817,
+      "stop" : 1591434211612,
+      "duration" : 8795
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591434212663,
+      "stop" : 1591434213085,
+      "duration" : 422
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "fiveStarsRetrievesSomething"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite "
+  }, {
+    "name" : "suite",
+    "value" : "Verification of the Search Results Page"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyResultsPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "12178@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "9fed12a6e5ef421e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591433575872,
+        "stop" : 1591433576922,
+        "duration" : 1050
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2886bc844d9fa295.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,123 @@
+{
+  "uid" : "7fb5d592e47bea5",
+  "name" : "Elements Verification for Tours Element",
+  "fullName" : "Frontend.VerifyLandingPage.elementsPresentForTours",
+  "historyId" : "56c3e792a3d4515a997697fc6322ec11",
+  "time" : {
+    "start" : 1591434150807,
+    "stop" : 1591434151594,
+    "duration" : 787
+  },
+  "description" : "Verify attribute of class for the tours element",
+  "descriptionHtml" : "<p>Verify attribute of class for the tours element</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591434146466,
+      "stop" : 1591434150803,
+      "duration" : 4337
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591434151595,
+      "stop" : 1591434152036,
+      "duration" : 441
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "elementsPresentForTours"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite "
+  }, {
+    "name" : "suite",
+    "value" : "Verification of the Landing Page"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "12178@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ {
+      "uid" : "a32daa24f0117d0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591389539880,
+        "stop" : 1591389540535,
+        "duration" : 655
+      }
+    }, {
+      "uid" : "4ab9d0db052e755d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591389113517,
+        "stop" : 1591389114142,
+        "duration" : 625
+      }
+    }, {
+      "uid" : "a1282c0d02f18a62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591006444385,
+        "stop" : 1591006444979,
+        "duration" : 594
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fb5d592e47bea5.json",
+  "parameterValues" : [ ]
+}

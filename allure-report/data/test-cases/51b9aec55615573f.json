@@ -1,0 +1,206 @@
+{
+  "uid" : "51b9aec55615573f",
+  "name" : "Destinations can be searched",
+  "fullName" : "Frontend.VerifyLandingPage.canFindDestination",
+  "historyId" : "dfa7097dcefbb3bdbe34153c5486eae9",
+  "time" : {
+    "start" : 1591434092033,
+    "stop" : 1591434097607,
+    "duration" : 5574
+  },
+  "description" : "Verify if searched values are found in the results page",
+  "descriptionHtml" : "<p>Verify if searched values are found in the results page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenChromeFrontend",
+    "time" : {
+      "start" : 1591434086734,
+      "stop" : 1591434092027,
+      "duration" : 5293
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1591434097609,
+      "stop" : 1591434098072,
+      "duration" : 463
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "canFindDestination"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite "
+  }, {
+    "name" : "suite",
+    "value" : "Verification of the Landing Page"
+  }, {
+    "name" : "subSuite",
+    "value" : "Frontend.VerifyLandingPage"
+  }, {
+    "name" : "host",
+    "value" : "IEDUBM4046103A"
+  }, {
+    "name" : "thread",
+    "value" : "12178@IEDUBM4046103A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "4b65a32b12276c31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591389482259,
+        "stop" : 1591389489890,
+        "duration" : 7631
+      }
+    }, {
+      "uid" : "942ae8f0e5c22888",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591389054055,
+        "stop" : 1591389063078,
+        "duration" : 9023
+      }
+    }, {
+      "uid" : "5acf17e88c77fe90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591378517066,
+        "stop" : 1591378525699,
+        "duration" : 8633
+      }
+    }, {
+      "uid" : "e8e4a1123c5c9ef6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591378407621,
+        "stop" : 1591378416908,
+        "duration" : 9287
+      }
+    }, {
+      "uid" : "544cee6e25fb5790",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=83.0.4103.97)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'IEDUBM4046103A', ip: '2a02:8084:4ec1:2900:9d3:fc6:3a44:9b04%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '14'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:56428}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c2ac0eefcdb5cf4408fd79870105345d",
+      "time" : {
+        "start" : 1591378387786,
+        "stop" : 1591378387791,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "7a28b972646d0168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591378353689,
+        "stop" : 1591378364277,
+        "duration" : 10588
+      }
+    }, {
+      "uid" : "727b94089111286e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591378303282,
+        "stop" : 1591378308717,
+        "duration" : 5435
+      }
+    }, {
+      "uid" : "c0571c8afd8d123",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591378075341,
+        "stop" : 1591378080632,
+        "duration" : 5291
+      }
+    }, {
+      "uid" : "45e1f58bc4dedc73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591377892105,
+        "stop" : 1591377895798,
+        "duration" : 3693
+      }
+    }, {
+      "uid" : "3d15fa5095264b63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591377777601,
+        "stop" : 1591377780236,
+        "duration" : 2635
+      }
+    }, {
+      "uid" : "239d343b2cdea59c",
+      "status" : "broken",
+      "statusDetails" : "javascript error: Unable to find owning document\n  (Session info: chrome=83.0.4103.97)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'IEDUBM4046103A', ip: '2a02:8084:4ec1:2900:9d3:fc6:3a44:9b04%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '14'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:54017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 305cd815a3fafea2cc5fa5525c5b1090",
+      "time" : {
+        "start" : 1591377737958,
+        "stop" : 1591377740413,
+        "duration" : 2455
+      }
+    }, {
+      "uid" : "808383ab08c779c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591377619581,
+        "stop" : 1591377622107,
+        "duration" : 2526
+      }
+    }, {
+      "uid" : "107f577cb2664f7c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"select2-drop\"]/ul/li/ul/li[1]/div\"}\n  (Session info: chrome=83.0.4103.97)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'IEDUBM4046103A', ip: '2a02:8084:4ec1:2900:9d3:fc6:3a44:9b04%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '14'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:52548}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 204a57ffb20966f45756e027797caf39\n*** Element info: {Using=xpath, value=//*[@id=\"select2-drop\"]/ul/li/ul/li[1]/div}",
+      "time" : {
+        "start" : 1591377367847,
+        "stop" : 1591377369341,
+        "duration" : 1494
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51b9aec55615573f.json",
+  "parameterValues" : [ ]
+}
