@@ -21,8 +21,8 @@ public class BasicOperations {
     String version = "83";
 
     public void OpenChromeFrontend() {
-        //System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv"+version);
-        System.setProperty("webdriver.chrome.driver", "WebDrivers/Winchromedriverv"+version+".exe");
+        System.setProperty("webdriver.chrome.driver", "WebDrivers/chromedriverv"+version);
+        //System.setProperty("webdriver.chrome.driver", "WebDrivers/Winchromedriverv"+version+".exe");
         driver = new ChromeDriver();
         driver.get("https://www.phptravels.net/home");
         driver.manage().window().maximize();
@@ -81,7 +81,7 @@ public class BasicOperations {
 
         try {
             //Runtime.getRuntime().exec("allure generate --clean /Projects/HighCode/Intellij/PHPTravels/allure-results/");//MAC
-            Runtime.getRuntime().exec(String.format("cmd.exe /allure generate --clean"));//WIN IS SHIT AND IT DOES NOT WORK AT ALL!!!
+            Runtime.getRuntime().exec("cmd.exe /allure generate --clean");//WINDOWS IS SHIT AND IT DOES NOT WORK AT ALL!!!
         } catch (IOException e) {
             e.printStackTrace();
         }

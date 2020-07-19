@@ -59,15 +59,15 @@ public class SearchResultsPage extends BasicOperations {
     public String HomeOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[1]/li/a")).getCssValue("font-size");
     public WebElement VisaOption = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[1]/a"));
     public String VisaOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[1]/a")).getCssValue("font-size");
-    public WebElement CompanyOption = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[2]/a"));
-    public String CompanyOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[2]")).getCssValue("font-size");
+    public WebElement CompanyOption = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]"));
+    public String CompanyOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]")).getCssValue("font-size");
     public WebElement PhoneNumber = driver.findElement(By.className("navbar-phone"));
     public String PhoneNumberFont = driver.findElement(By.className("navbar-phone")).getCssValue("font-size");//13px
     public String PhoneNumberText = driver.findElement(By.className("navbar-phone")).getText();
 
     //Results Displayed
-    public WebElement results = driver.findElement(By.id("LIST"));
-    public WebElement viewMoreBtn = driver.findElement(By.id("loadMore"));
+    public WebElement results = driver.findElement(By.className("product-long-item-wrapper"));
+    public WebElement paginationElement = driver.findElement(By.className("pagination"));
 
 
     //Filter Search Modal
@@ -85,8 +85,8 @@ public class SearchResultsPage extends BasicOperations {
 
     public WebElement priceRange = driver.findElement(By.xpath("//*[@id=\"filterResultCallapseOnMobile\"]/div/form/div[2]"));
     public WebElement priceOrder = driver.findElement(By.xpath("//*[@id=\"filterResultCallapseOnMobile\"]/div/form/div[3]"));
-    public WebElement highToLowRBtn = driver.findElement(By.xpath("//*[@id=\"filterResultCallapseOnMobile\"]/div/form/div[3]/div[2]/div/div[1]"));
-    public WebElement lowToHighRBtn = driver.findElement(By.xpath("//*[@id=\"filterResultCallapseOnMobile\"]/div/form/div[3]/div[2]/div/div[2]"));
+    public WebElement highToLowRBtn = driver.findElement(By.id("priceOrderDes"));
+    public WebElement lowToHighRBtn = driver.findElement(By.id("priceOrderAsc"));
     public WebElement filerSearchBtn = driver.findElement(By.id("searchform"));
 
     public void searchForOneStar(){

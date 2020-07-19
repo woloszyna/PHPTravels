@@ -34,17 +34,17 @@ public class VerifyLandingPage extends BasicOperations {
         assertTrue(LandingPage.currencyDropdown.isDisplayed());
         assertEquals(LandingPage.currencyFont,"13px");
         LandingPage.currencyDropdown.click();
-        assertTrue(LandingPage.languageOptionUSD.isDisplayed());
-        assertTrue(LandingPage.languageOptionGBP.isDisplayed());
-        assertTrue(LandingPage.languageOptionSAR.isDisplayed());
-        assertTrue(LandingPage.languageOptionEUR.isDisplayed());
-        assertTrue(LandingPage.languageOptionPKR.isDisplayed());
-        assertTrue(LandingPage.languageOptionKWD.isDisplayed());
-        assertTrue(LandingPage.languageOptionJPY.isDisplayed());
-        assertTrue(LandingPage.languageOptionINR.isDisplayed());
-        assertTrue(LandingPage.languageOptionCNY.isDisplayed());
-        assertTrue(LandingPage.languageOptionTRY.isDisplayed());
-        assertTrue(LandingPage.languageOptionRUB.isDisplayed());
+        assertTrue(LandingPage.currencyOptionUSD.isDisplayed());
+        assertTrue(LandingPage.currencyOptionGBP.isDisplayed());
+        assertTrue(LandingPage.currencyOptionSAR.isDisplayed());
+        assertTrue(LandingPage.currencyOptionEUR.isDisplayed());
+        assertTrue(LandingPage.currencyOptionPKR.isDisplayed());
+        assertTrue(LandingPage.currencyOptionKWD.isDisplayed());
+        assertTrue(LandingPage.currencyOptionJPY.isDisplayed());
+        assertTrue(LandingPage.currencyOptionINR.isDisplayed());
+        assertTrue(LandingPage.currencyOptionCNY.isDisplayed());
+        assertTrue(LandingPage.currencyOptionTRY.isDisplayed());
+        assertTrue(LandingPage.currencyOptionRUB.isDisplayed());
 
         BasicOperations.takeScreenshot();
 
@@ -69,7 +69,7 @@ public class VerifyLandingPage extends BasicOperations {
         assertEquals(LandingPage.myAccFont,"13px");
         LandingPage.myAccDropdown.click();
         assertTrue(LandingPage.loginBtn.isDisplayed());
-        assertTrue(LandingPage.signUp.isDisplayed());
+        assertTrue(LandingPage.signUpBtn.isDisplayed());
 
         BasicOperations.takeScreenshot();
 
@@ -410,7 +410,7 @@ public class VerifyLandingPage extends BasicOperations {
         WebElement flightType = driver.findElement(By.xpath("//*[@id=\"flights\"]/div/div/form/div/div[1]"));
         WebElement oneWay = driver.findElement(By.xpath("//*[@id=\"flights\"]/div/div/form/div/div[1]/div[1]/div/div[1]"));
         WebElement oneWayRadioBtn = driver.findElement(By.className("oneway"));
-        WebElement roundTrip = driver.findElement(By.xpath("//*[@id=\"flights\"]/div/div/form/div/div[1]/div[1]/div/div[2]/label"));
+        WebElement roundTrip = driver.findElement(By.xpath("//*[@id=\"flights\"]/div/div/form/div/div/div[1]/div[1]/div/div[2]/label"));
         WebElement roundTripRadioBtn = driver.findElement(By.id("flightSearchRadio-1"));
         WebElement flightclass = driver.findElement(By.className("flightclass"));
         WebElement from = driver.findElement(By.xpath("//*[@id=\"flights\"]/div/div/form/div/div[3]/div[1]/div/div[1]/div/div[2]"));

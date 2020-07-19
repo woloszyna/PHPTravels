@@ -55,12 +55,16 @@ public class LandingPage extends BasicOperations {
     public WebElement signUpBtn = driver.findElement(By.xpath("//*[@id=\"//header-waypoint-sticky\"]/div[1]/div/div/div[2]/div/ul/li[3]/div/div/div/a[2]"));
 
     public WebElement headerNavigation = driver.findElement(By.className("header-nav"));
+
     public WebElement HomeOption = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[1]/li/a"));
     public String HomeOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[1]/li/a")).getCssValue("font-size");
+
     public WebElement VisaOption = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[1]/a"));
     public String VisaOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[1]/a")).getCssValue("font-size");
-    public WebElement CompanyOption = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[2]/a"));
-    public String CompanyOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]/li[2]")).getCssValue("font-size");
+
+    public WebElement CompanyOption = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]"));
+    public String CompanyOptionFont = driver.findElement(By.xpath("//*[@id=\"mobileMenuMain\"]/nav/ul[2]")).getCssValue("font-size");
+
     public WebElement PhoneNumber = driver.findElement(By.className("navbar-phone"));
     public String PhoneNumberFont = driver.findElement(By.className("navbar-phone")).getCssValue("font-size");//13px
     public String PhoneNumberText = driver.findElement(By.className("navbar-phone")).getText();
@@ -73,7 +77,7 @@ public class LandingPage extends BasicOperations {
     public WebElement tours = driver.findElement(By.className("tours"));
     public WebElement cars = driver.findElement(By.className("cars"));
     public WebElement visa = driver.findElement(By.className("visa"));
-    public WebElement destination = driver.findElement(By.className("locationlistTravelhopeHotels"));
+    public WebElement destination = driver.findElement(By.className("hotelsearch"));
     public WebElement searchBtn = driver.findElement(By.className("btn-primary"));
 
     public void canChangeCurrencyToGBP(){
@@ -197,17 +201,17 @@ public class LandingPage extends BasicOperations {
         LandingPage.hotelsClicked();
 
         WebElement searchBtn = driver.findElement(By.xpath("//*[@id=\"hotels\"]/div/div/form/div/div/div[4]/button"));
-        String destination = "Paris";
+        String destination = "Alzer";
 
         LandingPage.destination.click();
 
         WebElement typeHere = driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/div/input"));
         typeHere.sendKeys(destination);
 
-        BasicOperations.WaitABit();
+        BasicOperations.waitALittle();
 
-        WebElement parisFrance = driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/ul/li/ul/li[1]/div"));
-        parisFrance.click();
+        WebElement destinationResult = driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/ul/li/ul/li[1]/div"));
+        destinationResult.click();
 
         searchBtn.click();
 
